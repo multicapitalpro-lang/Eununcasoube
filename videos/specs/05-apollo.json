@@ -1,0 +1,66 @@
+{
+ "lines": [
+  "O seu celular é mais poderoso do que o computador que ajudou a levar o homem à Lua.",
+  "O computador de bordo da Apollo tinha cerca de quatro quilobytes de memória de trabalho.",
+  "Um celular atual tem milhões de vezes mais memória do que isso.",
+  "Mesmo assim, aquele computador simples foi suficiente para navegar até a Lua.",
+  "Agora me diz: para que você mais usa o seu celular?"
+ ],
+ "scenes": [
+  {
+   "bg": "blue",
+   "kicker": "O QUE VOCÊ TEM NA MÃO",
+   "big1": "VENCE A",
+   "big2": "APOLLO 🚀",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📱"
+   }
+  },
+  {
+   "bg": "blue",
+   "kicker": "O computador da Apollo tinha",
+   "big1": "CERCA DE",
+   "big2": "4 KB DE RAM",
+   "viz": {
+    "type": "counter",
+    "emoji": "🚀",
+    "from": 0,
+    "to": 4,
+    "suffix": " KB",
+    "label": "memória de trabalho",
+    "d": 1.2
+   }
+  },
+  {
+   "bg": "purple",
+   "kicker": "Um celular atual tem",
+   "big1": "MILHÕES",
+   "big2": "DE VEZES MAIS",
+   "viz": {
+    "type": "scale",
+    "a": "Apollo",
+    "b": "Celular de hoje"
+   }
+  },
+  {
+   "bg": "night",
+   "kicker": "E mesmo assim, foi",
+   "big1": "SUFICIENTE",
+   "big2": "PARA A LUA.",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌙"
+   }
+  },
+  {
+   "bg": "night",
+   "big1": "O QUE VOCÊ",
+   "big2": "MAIS FAZ? 📱",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🤳"
+   }
+  }
+ ]
+}

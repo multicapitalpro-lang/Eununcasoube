@@ -1,0 +1,83 @@
+{
+ "lines": [
+  "Um raio pode ser mais quente do que a superfície do Sol. Sim, de verdade.",
+  "A superfície do Sol fica em torno de cinco mil e quinhentos graus Celsius.",
+  "Já o canal de um relâmpago pode chegar a cerca de trinta mil graus, por uma fração de segundo.",
+  "Esse calor faz o ar ao redor se expandir de uma vez, e esse estrondo que você ouve é o trovão.",
+  "Agora me diz: você tem medo de trovão?"
+ ],
+ "scenes": [
+  {
+   "bg": "blue",
+   "kicker": "UM RAIO PODE SER",
+   "big1": "MAIS QUENTE",
+   "big2": "QUE O SOL? 😮",
+   "viz": {
+    "type": "emoji",
+    "emoji": "⚡"
+   }
+  },
+  {
+   "bg": "blue",
+   "kicker": "A superfície do Sol tem",
+   "big1": "CERCA DE",
+   "big2": "5.500 °C",
+   "viz": {
+    "type": "bars",
+    "max": 30000,
+    "items": [
+     {
+      "name": "SOL",
+      "val": 5500,
+      "suffix": " °C",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "bg": "purple",
+   "kicker": "Já o relâmpago chega a",
+   "big1": "CERCA DE",
+   "big2": "30.000 °C",
+   "viz": {
+    "type": "bars",
+    "max": 30000,
+    "items": [
+     {
+      "name": "SOL",
+      "val": 5500,
+      "suffix": " °C",
+      "at": 0.0
+     },
+     {
+      "name": "RAIO",
+      "val": 30000,
+      "suffix": " °C",
+      "color": "#ff7a1a",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "bg": "night",
+   "kicker": "O ar se expande de uma vez",
+   "big1": "ESSE É O",
+   "big2": "TROVÃO.",
+   "viz": {
+    "type": "rings",
+    "emoji": "🔊"
+   }
+  },
+  {
+   "bg": "night",
+   "big1": "MEDO DE",
+   "big2": "TROVÃO? 😱",
+   "viz": {
+    "type": "emoji",
+    "emoji": "☔"
+   }
+  }
+ ]
+}

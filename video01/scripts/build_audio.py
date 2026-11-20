@@ -4,6 +4,7 @@ Saída: vo.wav, mix.wav (voz+trilha+sfx) e times.json (início/fim de cada fala)
 import sys, json, numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
 M, OUT = sys.argv[1], sys.argv[2]
+SPEC = sys.argv[3] if len(sys.argv) > 3 else None
 SR = 24000
 LINES = [
  "Você provavelmente está usando seu celular de um jeito que pode estar acabando com a bateria mais rápido.",
@@ -11,6 +12,7 @@ LINES = [
  "E tem um detalhe ainda mais importante: o calor acelera o desgaste da bateria.",
  "Por isso, deixar o celular carregando em um lugar muito quente, como dentro do carro no sol, pode ser uma péssima ideia.",
  "Agora me diz: você costuma deixar o celular carregando a noite inteira?"]
+if SPEC: LINES = json.load(open(SPEC))["lines"]
 k = Kokoro(f"{M}/kokoro-v1.0.onnx", f"{M}/voices-v1.0.bin")
 LEAD, GAP, TAIL = 0.35, 0.22, 1.1
 segs, times, t = [], [], LEAD

@@ -1,0 +1,69 @@
+{
+ "lines": [
+  "Você nasceu com mais ossos do que tem hoje.",
+  "Um bebê nasce com cerca de trezentos ossos, muitos deles ainda feitos de cartilagem.",
+  "Com o crescimento, vários se fundem, e um adulto termina com duzentos e seis.",
+  "Ou seja, você não perdeu ossos: eles se uniram ao longo da vida.",
+  "Você sabia disso?"
+ ],
+ "scenes": [
+  {
+   "bg": "teal",
+   "kicker": "VOCÊ NASCEU COM",
+   "big1": "MAIS OSSOS",
+   "big2": "QUE HOJE 🤔",
+   "viz": {
+    "type": "emoji",
+    "emoji": "👶"
+   }
+  },
+  {
+   "bg": "teal",
+   "kicker": "Um bebê nasce com",
+   "big1": "CERCA DE",
+   "big2": "300 OSSOS",
+   "viz": {
+    "type": "counter",
+    "emoji": "👶",
+    "from": 0,
+    "to": 300,
+    "label": "ossos",
+    "d": 1.8
+   }
+  },
+  {
+   "bg": "purple",
+   "kicker": "Vários se fundem:",
+   "big1": "ADULTO TEM",
+   "big2": "206 OSSOS",
+   "viz": {
+    "type": "counter",
+    "emoji": "🦴",
+    "from": 300,
+    "to": 206,
+    "label": "ossos",
+    "d": 2.2,
+    "hot": true
+   }
+  },
+  {
+   "bg": "blue",
+   "kicker": "Você não perdeu ossos:",
+   "big1": "ELES SE",
+   "big2": "UNIRAM.",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🤝"
+   }
+  },
+  {
+   "bg": "night",
+   "big1": "VOCÊ",
+   "big2": "SABIA? 🤔",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🦴"
+   }
+  }
+ ]
+}

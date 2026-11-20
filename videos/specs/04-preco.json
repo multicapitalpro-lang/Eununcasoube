@@ -1,0 +1,67 @@
+{
+ "lines": [
+  "Por que tanta coisa custa nove e noventa e nove, e não dez reais?",
+  "Porque o cérebro lê primeiro o número da esquerda.",
+  "Nove e noventa e nove parece estar na faixa dos nove reais, mesmo sendo só um centavo a menos.",
+  "É um truque de preço bem conhecido, e vale prestar atenção antes de comprar.",
+  "Agora me diz: você já caiu nessa?"
+ ],
+ "scenes": [
+  {
+   "bg": "purple",
+   "kicker": "POR QUE TUDO CUSTA",
+   "big1": "R$ 9,99",
+   "big2": "E NÃO R$ 10? 🤔",
+   "viz": {
+    "type": "emoji",
+    "emoji": "💸"
+   }
+  },
+  {
+   "bg": "blue",
+   "kicker": "O cérebro lê primeiro",
+   "big1": "O NÚMERO",
+   "big2": "DA ESQUERDA.",
+   "viz": {
+    "type": "price",
+    "old": "R$ 10,00",
+    "new": "R$ 9,99",
+    "ring": 2.0
+   }
+  },
+  {
+   "bg": "warm",
+   "kicker": "Parece custar uns 9 reais, mas é só",
+   "big1": "UM",
+   "big2": "CENTAVO.",
+   "viz": {
+    "type": "counter",
+    "emoji": "💸",
+    "from": 1000,
+    "to": 999,
+    "label": "centavos",
+    "d": 1.6,
+    "hot": true
+   }
+  },
+  {
+   "bg": "night",
+   "kicker": "É um truque de preço:",
+   "big1": "FIQUE",
+   "big2": "ATENTO.",
+   "viz": {
+    "type": "emoji",
+    "emoji": "👀"
+   }
+  },
+  {
+   "bg": "night",
+   "big1": "VOCÊ JÁ",
+   "big2": "CAIU? 😅",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🛒"
+   }
+  }
+ ]
+}
