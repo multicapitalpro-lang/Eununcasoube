@@ -111,13 +111,17 @@ html,body{{width:1080px;height:1920px;overflow:hidden;background:#0d1220}}
   <svg id="moon" width="150" height="150" viewBox="0 0 150 150" class="abs" data-layout-allow-overflow><path d="M105 20a58 58 0 1 0 25 90A48 48 0 0 1 105 20z" fill="#eaf1fb"/></svg>
 </div>
 
+<!-- clipes reais (Pixabay) -->
+<video id="vid1" class="clip" data-start="0" data-duration="{dur(0,S[1])}" data-track-index="1" muted playsinline src="assets/clip-escuro.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video>
+<div id="sh1" class="clip" data-start="0" data-duration="{dur(0,S[1])}" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,32,.66) 0%,rgba(13,18,32,.30) 42%,rgba(13,18,32,.72) 100%)"></div>
+<video id="vid4" class="clip" data-start="{S[3]}" data-duration="{dur(S[3],S[4])}" data-track-index="1" muted playsinline src="assets/clip-carro.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video>
+<div id="sh4" class="clip" data-start="{S[3]}" data-duration="{dur(S[3],S[4])}" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(70,28,8,.72) 0%,rgba(255,122,26,.30) 55%,rgba(60,22,8,.70) 100%)"></div>
+<video id="vid5" class="clip" data-start="{S[4]}" data-duration="{dur(S[4],S[5])}" data-track-index="1" muted playsinline src="assets/clip-noite.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video>
+<div id="sh5" class="clip" data-start="{S[4]}" data-duration="{dur(S[4],S[5])}" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,15,34,.70) 0%,rgba(10,15,34,.28) 45%,rgba(10,15,34,.66) 100%)"></div>
+
 <!-- carro (cena 4) -->
 <div class="clip" data-start="{S[3]}" data-duration="{dur(S[3],S[4])}" data-track-index="1" style="position:absolute;inset:0">
  <div id="car">
-  <div id="wind"></div>
-  <svg id="rays" viewBox="-175 -175 350 350" data-layout-allow-overflow><g id="raysg" stroke="#fff3d6" stroke-width="12" stroke-linecap="round">{''.join(f'<line x1="0" y1="-105" x2="0" y2="-{150 if i%2==0 else 130}" transform="rotate({i*30})"/>' for i in range(12))}</g></svg>
-  <div id="sun"></div>
-  <div id="dash"></div><div id="dashhi"></div>
   <svg class="heat" id="h1" style="left:300px;top:560px" width="60" height="240" viewBox="0 0 60 240"><path d="M30 235C5 200 55 170 30 135S5 70 30 5" stroke="#fff3d6" stroke-width="9" fill="none" stroke-linecap="round"/></svg>
   <svg class="heat" id="h2" style="left:500px;top:530px" width="60" height="240" viewBox="0 0 60 240"><path d="M30 235C5 200 55 170 30 135S5 70 30 5" stroke="#fff3d6" stroke-width="9" fill="none" stroke-linecap="round"/></svg>
   <svg class="heat" id="h3" style="left:600px;top:560px" width="60" height="240" viewBox="0 0 60 240"><path d="M30 235C5 200 55 170 30 135S5 70 30 5" stroke="#fff3d6" stroke-width="9" fill="none" stroke-linecap="round"/></svg>
@@ -187,6 +191,7 @@ const tl = gsap.timeline({{paused:true}});
 const S = {json.dumps(S)}, TOT = {TOT};
 const E = "power3.out", SP = "back.out(1.8)";
 gsap.set("#ph", {{xPercent:-50, yPercent:-50, y:70, scale:.78}});
+tl.set("#ph",{{opacity:0}},0); tl.set("#ph",{{opacity:1}},S[1]); tl.set("#ph",{{opacity:0}},S[3]-.02);
 // vida contínua no fundo (finita)
 tl.to("#r1",{{y:-260,rotation:90,duration:TOT,ease:"none"}},0).to("#r2",{{y:-300,duration:TOT,ease:"none"}},0)
   .to("#r3",{{y:200,x:-80,duration:TOT,ease:"none"}},0).to("#r4",{{y:-220,x:120,duration:TOT,ease:"none"}},0);
@@ -240,8 +245,6 @@ tl.fromTo("#car",{{opacity:0}},{{opacity:1,duration:.4}},S[3]);
 tl.to("#ph",{{x:0,y:160,scale:.46,rotation:-7,duration:.7,ease:"power3.inOut"}},S[3]);
 tl.to("#glow",{{opacity:1,duration:.6}},S[3]+.4);
 chars(".c4",S[3]+.12,.03);
-tl.fromTo("#sun",{{y:150,scale:.7}},{{y:0,scale:1,duration:1.0,ease:"power3.out"}},S[3]+.3);
-tl.fromTo("#raysg",{{rotation:0,transformOrigin:"0px 0px"}},{{rotation:80,duration:S[4]-S[3],ease:"none"}},S[3]);
 ["#h1","#h2","#h3"].forEach((h,i)=>{{
   tl.fromTo(h,{{opacity:0,y:30}},{{opacity:.7,y:-60,duration:.9,ease:"sine.out"}},S[3]+1.4+i*.35);
   tl.to(h,{{opacity:0,y:-130,duration:.9,ease:"sine.in"}},S[3]+2.3+i*.35);
@@ -257,8 +260,6 @@ tl.to("#car",{{opacity:0,duration:.3}},S[4]-.05);
 swap("#p4","#p5",S[4]);
 tl.to("#ph",{{x:0,y:20,scale:.72,rotation:0,duration:.6,ease:"power3.inOut"}},S[4]);
 tl.to("#glow",{{opacity:0,duration:.4}},S[4]);
-tl.to(".star",{{opacity:.85,duration:.8,stagger:.03}},S[4]+.1);
-tl.fromTo("#moon",{{opacity:0,y:40}},{{opacity:1,y:0,duration:.8,ease:"power2.out"}},S[4]+.2);
 tl.fromTo("#s5t",{{scale:.5,opacity:0,y:40}},{{scale:1,opacity:1,y:0,duration:.55,ease:SP}},S[4]+.15);
 tl.fromTo("#s5e",{{scale:.2,opacity:0,rotation:-20}},{{scale:1,opacity:1,rotation:0,duration:.6,ease:SP}},S[4]+.55);
 tl.fromTo("#bolt5",{{scale:1}},{{scale:1.2,duration:.5,yoyo:true,repeat:5,ease:"sine.inOut"}},S[4]+.6);
