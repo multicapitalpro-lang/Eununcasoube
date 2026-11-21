@@ -1,0 +1,62 @@
+{
+ "lines": [
+  "Tecnicamente, a banana é uma baga. E o morango não é.",
+  "Na botânica, a baga vem de um único ovário da flor e tem a semente dentro da polpa.",
+  "A banana se encaixa nisso. Já no morango, a parte vermelha vem de outra parte da flor, e as sementes ficam do lado de fora.",
+  "Ou seja, o que a gente chama de fruta nem sempre é o que a ciência chama.",
+  "Agora me diz: você já sabia dessa?"
+ ],
+ "scenes": [
+  {
+   "bg": "warm",
+   "big1": "BAGA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🍌"
+   },
+   "kicker": "A BANANA É UMA",
+   "big2": "E O MORANGO?"
+  },
+  {
+   "bg": "teal",
+   "big1": "ÚNICO OVÁRIO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌸"
+   },
+   "kicker": "A baga vem de um",
+   "big2": "DA FLOR."
+  },
+  {
+   "bg": "purple",
+   "big1": "FICAM",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🍓"
+   },
+   "kicker": "No morango, as sementes",
+   "big2": "POR FORA.",
+   "clip": "assets/clip-s2.mp4"
+  },
+  {
+   "bg": "blue",
+   "big1": "NEM SEMPRE",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🤯"
+   },
+   "kicker": "O que chamamos de fruta",
+   "big2": "É O MESMO."
+  },
+  {
+   "bg": "night",
+   "big1": "VOCÊ JÁ",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🍓"
+   },
+   "big2": "SABIA? 🍌",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

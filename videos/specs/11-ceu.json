@@ -1,0 +1,62 @@
+{
+ "lines": [
+  "Por que o céu é azul?",
+  "A luz do Sol parece branca, mas ela mistura todas as cores.",
+  "Ao atravessar a atmosfera, a luz azul se espalha muito mais do que as outras cores.",
+  "E no pôr do sol, a luz faz um caminho mais longo, o azul se perde pelo caminho e sobra o vermelho.",
+  "Agora me diz: qual foi o pôr do sol mais bonito que você já viu?"
+ ],
+ "scenes": [
+  {
+   "bg": "blue",
+   "big1": "POR QUE O",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌤"
+   },
+   "kicker": "VOCÊ JÁ SE PERGUNTOU",
+   "big2": "CÉU É AZUL? 🤔"
+  },
+  {
+   "bg": "blue",
+   "big1": "TODAS AS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌈"
+   },
+   "kicker": "A luz do Sol mistura",
+   "big2": "CORES."
+  },
+  {
+   "bg": "teal",
+   "big1": "MUITO MAIS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔵"
+   },
+   "kicker": "A luz azul se espalha",
+   "big2": "NA ATMOSFERA."
+  },
+  {
+   "bg": "warm",
+   "big1": "SOBRA O",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌅"
+   },
+   "kicker": "No pôr do sol,",
+   "big2": "VERMELHO.",
+   "clip": "assets/clip-s3.mp4"
+  },
+  {
+   "bg": "night",
+   "big1": "QUAL O MAIS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌇"
+   },
+   "big2": "BONITO? 🌅",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

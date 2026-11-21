@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "O mel praticamente não estraga. Sério.",
+  "Ele tem pouca água e é ácido, o que dificulta a vida de bactérias e fungos.",
+  "E as abelhas ainda adicionam uma enzima que forma um pouco de peróxido de hidrogênio, que ajuda a proteger.",
+  "Por isso já acharam mel de milhares de anos em tumbas egípcias, ainda conservado, porque estava bem fechado.",
+  "Agora me diz: você guarda o mel na geladeira?"
+ ],
+ "scenes": [
+  {
+   "bg": "warm",
+   "big1": "NÃO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🍯"
+   },
+   "kicker": "O MEL PRATICAMENTE",
+   "big2": "ESTRAGA. 🍯"
+  },
+  {
+   "bg": "warm",
+   "big1": "DIFÍCIL PARA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🍯"
+   },
+   "kicker": "Pouca água e ácido:",
+   "big2": "BACTÉRIAS."
+  },
+  {
+   "bg": "purple",
+   "big1": "UMA ENZIMA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🐝"
+   },
+   "kicker": "As abelhas adicionam",
+   "big2": "PROTETORA.",
+   "clip": "assets/clip-s2.mp4"
+  },
+  {
+   "bg": "warm",
+   "big1": "EM TUMBAS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🏺"
+   },
+   "kicker": "Mel de milhares de anos",
+   "big2": "DO EGITO.",
+   "clip": "assets/clip-s3.mp4"
+  },
+  {
+   "bg": "night",
+   "big1": "MEL NA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🍯"
+   },
+   "big2": "GELADEIRA? 🤔",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

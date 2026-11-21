@@ -1,0 +1,66 @@
+{
+ "lines": [
+  "O polvo tem três corações. E o sangue dele é azul.",
+  "Dois corações levam o sangue às brânquias, e o terceiro, maior, leva o sangue ao resto do corpo.",
+  "O azul vem da hemocianina, uma proteína com cobre, adaptada a águas frias e com pouco oxigênio.",
+  "E tem mais: quando o polvo nada em jato, o coração do corpo pode parar por instantes.",
+  "Agora me diz: qual animal você acha mais estranho?"
+ ],
+ "scenes": [
+  {
+   "bg": "teal",
+   "big1": "3 CORAÇÕES",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🐙"
+   },
+   "kicker": "O POLVO TEM",
+   "big2": "SANGUE AZUL"
+  },
+  {
+   "bg": "blue",
+   "big1": "UM AO",
+   "viz": {
+    "type": "counter",
+    "emoji": "💙",
+    "from": 0,
+    "to": 3,
+    "label": "corações",
+    "d": 1.2
+   },
+   "kicker": "Dois vão às brânquias,",
+   "big2": "CORPO."
+  },
+  {
+   "bg": "teal",
+   "big1": "HEMOCIANINA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "💙"
+   },
+   "kicker": "O azul vem da",
+   "big2": "COM COBRE.",
+   "clip": "assets/clip-s2.mp4"
+  },
+  {
+   "bg": "night",
+   "big1": "O CORAÇÃO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌊"
+   },
+   "kicker": "Nadando em jato,",
+   "big2": "PODE PARAR."
+  },
+  {
+   "bg": "night",
+   "big1": "QUAL É O MAIS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🐙"
+   },
+   "big2": "ESTRANHO? 🤔",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

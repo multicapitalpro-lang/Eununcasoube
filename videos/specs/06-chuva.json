@@ -1,0 +1,61 @@
+{
+ "lines": [
+  "Você sabe por que a chuva tem cheiro?",
+  "Esse cheiro tem nome: petricor.",
+  "Ele vem de óleos de plantas e de um composto chamado geosmina, produzido por bactérias do solo.",
+  "Quando a gota cai, ela solta bolhas minúsculas que estouram e lançam esses aromas no ar, segundo um estudo do MIT.",
+  "Agora me diz: você gosta desse cheiro?"
+ ],
+ "scenes": [
+  {
+   "bg": "blue",
+   "big1": "A CHUVA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌧"
+   },
+   "kicker": "VOCÊ SABE POR QUE",
+   "big2": "TEM CHEIRO? 👃"
+  },
+  {
+   "bg": "teal",
+   "big1": "PETRICOR",
+   "viz": {
+    "type": "emoji",
+    "emoji": "👃"
+   },
+   "kicker": "Esse cheiro tem nome:"
+  },
+  {
+   "bg": "teal",
+   "big1": "GEOSMINA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌱"
+   },
+   "kicker": "Óleos de plantas e",
+   "big2": "DO SOLO.",
+   "clip": "assets/clip-s2.mp4"
+  },
+  {
+   "bg": "night",
+   "big1": "QUE ESTOURAM",
+   "viz": {
+    "type": "rings",
+    "emoji": "💧"
+   },
+   "kicker": "A gota solta bolhas",
+   "big2": "NO AR."
+  },
+  {
+   "bg": "night",
+   "big1": "GOSTA DESSE",
+   "viz": {
+    "type": "emoji",
+    "emoji": "☔"
+   },
+   "big2": "CHEIRO? 😌",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

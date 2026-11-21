@@ -1,0 +1,135 @@
+[
+ {
+  "video": "06-chuva",
+  "scene": 0,
+  "cand": "chu0",
+  "i": 2,
+  "x": 0.4
+ },
+ {
+  "video": "06-chuva",
+  "scene": 2,
+  "cand": "chu2",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "06-chuva",
+  "scene": 4,
+  "cand": "chu4",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "07-polvo",
+  "scene": 0,
+  "cand": "pol0",
+  "i": 2,
+  "x": 0.55
+ },
+ {
+  "video": "07-polvo",
+  "scene": 2,
+  "cand": "pol2",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "07-polvo",
+  "scene": 4,
+  "cand": "pol4",
+  "i": 1,
+  "x": 0.42
+ },
+ {
+  "video": "08-eiffel",
+  "scene": 0,
+  "cand": "eif0",
+  "i": 2,
+  "x": 0.35
+ },
+ {
+  "video": "08-eiffel",
+  "scene": 3,
+  "cand": "eif3",
+  "i": 3,
+  "x": 0.5
+ },
+ {
+  "video": "08-eiffel",
+  "scene": 4,
+  "cand": "eif4",
+  "i": 2,
+  "x": 0.0
+ },
+ {
+  "video": "09-mel",
+  "scene": 0,
+  "cand": "mel2",
+  "i": 0,
+  "x": 0.35
+ },
+ {
+  "video": "09-mel",
+  "scene": 2,
+  "cand": "mel2",
+  "i": 2,
+  "x": 0.5
+ },
+ {
+  "video": "09-mel",
+  "scene": 3,
+  "cand": "mel3",
+  "i": 1,
+  "x": 0.5
+ },
+ {
+  "video": "09-mel",
+  "scene": 4,
+  "cand": "mel2",
+  "i": 1,
+  "x": 0.5
+ },
+ {
+  "video": "10-banana",
+  "scene": 0,
+  "cand": "ban0",
+  "i": 0,
+  "x": 0.4
+ },
+ {
+  "video": "10-banana",
+  "scene": 2,
+  "cand": "ban2",
+  "i": 1,
+  "x": 0.55
+ },
+ {
+  "video": "10-banana",
+  "scene": 4,
+  "cand": "ban2",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "11-ceu",
+  "scene": 0,
+  "cand": "ceu0",
+  "i": 1,
+  "x": 0.5
+ },
+ {
+  "video": "11-ceu",
+  "scene": 3,
+  "cand": "ceu3",
+  "i": 2,
+  "x": 0.3
+ },
+ {
+  "video": "11-ceu",
+  "scene": 4,
+  "cand": "ceu4",
+  "i": 0,
+  "x": 0.55
+ }
+]

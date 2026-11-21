@@ -1,0 +1,61 @@
+{
+ "lines": [
+  "A Torre Eiffel muda de tamanho com o calor. Sim, de verdade.",
+  "Ela é feita de ferro, e o ferro se dilata quando esquenta.",
+  "Por isso, no verão a torre fica alguns centímetros mais alta, e no frio ela volta a encolher.",
+  "O topo também se desloca um pouco ao longo do dia, porque o lado aquecido pelo sol dilata mais.",
+  "Agora me diz: você já visitou a torre?"
+ ],
+ "scenes": [
+  {
+   "bg": "blue",
+   "big1": "MUDA DE",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔥"
+   },
+   "kicker": "A TORRE EIFFEL",
+   "big2": "TAMANHO?"
+  },
+  {
+   "bg": "warm",
+   "big1": "COM O CALOR",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔥"
+   },
+   "kicker": "O ferro se dilata"
+  },
+  {
+   "bg": "purple",
+   "big1": "ALGUNS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📏"
+   },
+   "kicker": "No verão, ela fica",
+   "big2": "CENTÍMETROS."
+  },
+  {
+   "bg": "warm",
+   "big1": "O TOPO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌞"
+   },
+   "kicker": "O lado do sol dilata mais:",
+   "big2": "SE DESLOCA.",
+   "clip": "assets/clip-s3.mp4"
+  },
+  {
+   "bg": "night",
+   "big1": "JÁ VISITOU",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🥖"
+   },
+   "big2": "A TORRE? 😍",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}
