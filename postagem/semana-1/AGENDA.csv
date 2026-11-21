@@ -1,0 +1,12 @@
+ordem,data,dia,horario_brasilia,video,arquivo,legenda
+01,2026-11-23,segunda,12:00,Você está usando o celular errado?,video01-voce-esta-usando-o-celular-errado.mp4,legendas/01.txt
+02,2026-11-23,segunda,19:00,Raio mais quente que o Sol,video02-raio-mais-quente-que-o-sol.mp4,legendas/02.txt
+03,2026-11-24,terça,12:00,Você nasceu com mais ossos,video03-voce-nasceu-com-mais-ossos.mp4,legendas/03.txt
+04,2026-11-24,terça,19:00,"Por que tudo custa R$ 9,99",video04-por-que-tudo-custa-9-99.mp4,legendas/04.txt
+05,2026-11-25,quarta,12:00,Celular vs. Apollo,video05-celular-vs-apollo.mp4,legendas/05.txt
+06,2026-11-25,quarta,19:00,Cheiro de chuva,video06-cheiro-de-chuva.mp4,legendas/06.txt
+07,2026-11-26,quinta,12:00,O polvo e os 3 corações,video07-polvo-tres-coracoes.mp4,legendas/07.txt
+08,2026-11-26,quinta,19:00,Torre Eiffel muda de tamanho,video08-torre-eiffel-muda-de-tamanho.mp4,legendas/08.txt
+09,2026-11-27,sexta,12:00,Mel não estraga,video09-mel-nao-estraga.mp4,legendas/09.txt
+10,2026-11-27,sexta,19:00,A banana é uma baga,video10-banana-e-uma-baga.mp4,legendas/10.txt
+11,2026-11-28,sábado,12:00,Por que o céu é azul,video11-por-que-o-ceu-e-azul.mp4,legendas/11.txt
