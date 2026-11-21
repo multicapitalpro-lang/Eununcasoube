@@ -1,0 +1,102 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+:root{--ice:#eaf1fb;--silver:#aab7ca;--acc:#ff7a1a;--font:"Nunito",sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0d1220}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:var(--font);color:var(--ice)}
+.bg{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.ring{position:absolute;border:3px solid rgba(234,241,251,.12);border-radius:50%}
+.ch{display:inline-block}.t{position:absolute;left:0;width:1080px;text-align:center;line-height:1.05}
+.small{font-weight:600;color:var(--ice)}.big{font-weight:900;letter-spacing:-2px;color:var(--ice)}.acc{color:var(--acc)}
+.sub{position:absolute;left:60px;width:960px;top:1176px;text-align:center;font-weight:800;font-size:60px;line-height:1.1;color:#fff;
+ text-shadow:3px 0 0 #0d1220,-3px 0 0 #0d1220,0 3px 0 #0d1220,0 -3px 0 #0d1220,2px 2px 0 #0d1220,-2px -2px 0 #0d1220,2px -2px 0 #0d1220,-2px 2px 0 #0d1220}
+.vem{position:absolute;left:0;width:1080px;text-align:center;font-size:300px;line-height:1.1}
+.vnum{position:absolute;left:0;width:1080px;text-align:center;font-weight:900;font-size:230px;line-height:1;color:var(--ice)}
+.vlab{position:absolute;left:0;width:1080px;text-align:center;font-weight:700;font-size:50px;color:var(--silver)}
+.vbar{position:absolute;border-radius:24px 24px 0 0}
+.vval{position:absolute;text-align:center;font-weight:900;font-size:56px;line-height:1.1;white-space:nowrap}
+.vring{position:absolute;left:440px;top:800px;width:200px;height:200px;border:10px solid var(--acc);border-radius:50%;opacity:0}
+.vprice{position:absolute;left:0;width:1080px;text-align:center;font-weight:900;line-height:1;color:var(--ice)}
+.vring2{position:absolute;left:472px;top:770px;width:150px;height:250px;border:10px solid var(--acc);border-radius:50%;opacity:0}
+.vcirc{position:absolute;border-radius:50%}
+#comm{top:1262px;font-weight:700;font-size:50px;color:var(--ice)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="28.47" data-width="1080" data-height="1920">
+<div id="back" class="clip" data-start="0" data-duration="28.47" data-track-index="0" style="position:absolute;inset:0">
+<div id="bg0" class="bg" style="opacity:1;background:radial-gradient(ellipse 800px 900px at 540px 780px,#7a4326 0%,#3b241e 55%,#1a1216 100%)"></div><div id="bg1" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#7a4326 0%,#3b241e 55%,#1a1216 100%)"></div><div id="bg2" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#4a3a4e 0%,#2a2236 55%,#141324 100%)"></div><div id="bg3" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#27386a 0%,#131b3a 55%,#0a0f22 100%)"></div><div id="bg4" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#27386a 0%,#131b3a 55%,#0a0f22 100%)"></div>
+<div class="ring" id="r1" style="left:-120px;top:240px;width:380px;height:380px"></div><div class="ring" id="r2" style="left:820px;top:980px;width:300px;height:300px"></div>
+<div class="ring" id="r3" style="left:760px;top:120px;width:200px;height:200px"></div><div class="ring" id="r4" style="left:-60px;top:1000px;width:240px;height:240px"></div>
+</div>
+<video id="mv0" class="clip" data-start="0.0" data-duration="6.978" data-track-index="1" muted playsinline src="assets/clip-s0.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video><div id="ms0" class="clip" data-start="0.0" data-duration="6.978" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,32,.80) 0%,rgba(13,18,32,.46) 42%,rgba(13,18,32,.82) 100%)"></div>
+<video id="mv4" class="clip" data-start="23.147" data-duration="5.323" data-track-index="1" muted playsinline src="assets/clip-s4.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video><div id="ms4" class="clip" data-start="23.147" data-duration="5.323" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,32,.80) 0%,rgba(13,18,32,.46) 42%,rgba(13,18,32,.82) 100%)"></div>
+<div class="clip scn" id="s0" data-start="0.0" data-duration="6.978" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:178px;font-size:64px"><span class="ch c0">C</span><span class="ch c0">L</span><span class="ch c0">E</span><span class="ch c0">Ó</span><span class="ch c0">P</span><span class="ch c0">A</span><span class="ch c0">T</span><span class="ch c0">R</span><span class="ch c0">A</span><span class="ch c0">&nbsp;</span><span class="ch c0">V</span><span class="ch c0">I</span><span class="ch c0">V</span><span class="ch c0">E</span><span class="ch c0">U</span></div><div class="t big" style="top:250px;font-size:83px"><span class="ch c0">M</span><span class="ch c0">A</span><span class="ch c0">I</span><span class="ch c0">S</span><span class="ch c0">&nbsp;</span><span class="ch c0">P</span><span class="ch c0">E</span><span class="ch c0">R</span><span class="ch c0">T</span><span class="ch c0">O</span><span class="ch c0">&nbsp;</span><span class="ch c0">D</span><span class="ch c0">A</span><span class="ch c0">&nbsp;</span><span class="ch c0">L</span><span class="ch c0">U</span><span class="ch c0">A</span></div><div class="t big acc" style="top:396px;font-size:94px"><span class="ch c0">Q</span><span class="ch c0">U</span><span class="ch c0">E</span><span class="ch c0">&nbsp;</span><span class="ch c0">D</span><span class="ch c0">A</span><span class="ch c0">&nbsp;</span><span class="ch c0">P</span><span class="ch c0">I</span><span class="ch c0">R</span><span class="ch c0">Â</span><span class="ch c0">M</span><span class="ch c0">I</span><span class="ch c0">D</span><span class="ch c0">E</span></div></div>
+<div class="clip scn" id="s1" data-start="6.978" data-duration="4.964" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:200px;font-size:58px"><span class="ch c1">A</span><span class="ch c1">&nbsp;</span><span class="ch c1">G</span><span class="ch c1">r</span><span class="ch c1">a</span><span class="ch c1">n</span><span class="ch c1">d</span><span class="ch c1">e</span><span class="ch c1">&nbsp;</span><span class="ch c1">P</span><span class="ch c1">i</span><span class="ch c1">r</span><span class="ch c1">â</span><span class="ch c1">m</span><span class="ch c1">i</span><span class="ch c1">d</span><span class="ch c1">e</span><span class="ch c1">:</span></div><div class="t big" style="top:290px;font-size:118px"><span class="ch c1">P</span><span class="ch c1">O</span><span class="ch c1">R</span><span class="ch c1">&nbsp;</span><span class="ch c1">V</span><span class="ch c1">O</span><span class="ch c1">L</span><span class="ch c1">T</span><span class="ch c1">A</span><span class="ch c1">&nbsp;</span><span class="ch c1">D</span><span class="ch c1">E</span></div><div class="t big acc" style="top:410px;font-size:118px"><span class="ch c1">2</span><span class="ch c1">.</span><span class="ch c1">5</span><span class="ch c1">0</span><span class="ch c1">0</span><span class="ch c1">&nbsp;</span><span class="ch c1">A</span><span class="ch c1">.</span><span class="ch c1">C</span><span class="ch c1">.</span></div><div id="v1e" class="vem" style="top:600px;font-size:170px">🏺</div><div id="v1n" class="vnum" style="top:790px;font-size:137px;white-space:nowrap">0</div><div class="vlab" style="top:1030px">Grande Pirâmide</div></div>
+<div class="clip scn" id="s2" data-start="11.942" data-duration="4.577" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:200px;font-size:58px"><span class="ch c2">M</span><span class="ch c2">a</span><span class="ch c2">i</span><span class="ch c2">s</span><span class="ch c2">&nbsp;</span><span class="ch c2">d</span><span class="ch c2">e</span><span class="ch c2">&nbsp;</span><span class="ch c2">2</span><span class="ch c2">.</span><span class="ch c2">0</span><span class="ch c2">0</span><span class="ch c2">0</span><span class="ch c2">&nbsp;</span><span class="ch c2">a</span><span class="ch c2">n</span><span class="ch c2">o</span><span class="ch c2">s</span><span class="ch c2">&nbsp;</span><span class="ch c2">d</span><span class="ch c2">e</span><span class="ch c2">p</span><span class="ch c2">o</span><span class="ch c2">i</span><span class="ch c2">s</span><span class="ch c2">,</span></div><div class="t big" style="top:290px;font-size:118px"><span class="ch c2">C</span><span class="ch c2">L</span><span class="ch c2">E</span><span class="ch c2">Ó</span><span class="ch c2">P</span><span class="ch c2">A</span><span class="ch c2">T</span><span class="ch c2">R</span><span class="ch c2">A</span></div><div class="t big acc" style="top:410px;font-size:118px"><span class="ch c2">M</span><span class="ch c2">O</span><span class="ch c2">R</span><span class="ch c2">R</span><span class="ch c2">E</span><span class="ch c2">.</span></div><div id="v2e" class="vem" style="top:600px;font-size:170px">👑</div><div id="v2n" class="vnum" style="top:790px;font-size:189px;white-space:nowrap">0</div><div class="vlab" style="top:1030px">morte de Cleópatra</div></div>
+<div class="clip scn" id="s3" data-start="16.519" data-duration="6.628" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:200px;font-size:58px"><span class="ch c3">D</span><span class="ch c3">i</span><span class="ch c3">s</span><span class="ch c3">t</span><span class="ch c3">â</span><span class="ch c3">n</span><span class="ch c3">c</span><span class="ch c3">i</span><span class="ch c3">a</span><span class="ch c3">&nbsp;</span><span class="ch c3">d</span><span class="ch c3">e</span><span class="ch c3">&nbsp;</span><span class="ch c3">C</span><span class="ch c3">l</span><span class="ch c3">e</span><span class="ch c3">ó</span><span class="ch c3">p</span><span class="ch c3">a</span><span class="ch c3">t</span><span class="ch c3">r</span><span class="ch c3">a</span><span class="ch c3">&nbsp;</span><span class="ch c3">a</span><span class="ch c3">t</span><span class="ch c3">é</span><span class="ch c3">:</span></div><div class="t big" style="top:290px;font-size:118px"><span class="ch c3">A</span><span class="ch c3">&nbsp;</span><span class="ch c3">P</span><span class="ch c3">I</span><span class="ch c3">R</span><span class="ch c3">Â</span><span class="ch c3">M</span><span class="ch c3">I</span><span class="ch c3">D</span><span class="ch c3">E</span></div><div class="t big acc" style="top:410px;font-size:118px"><span class="ch c3">E</span><span class="ch c3">&nbsp;</span><span class="ch c3">A</span><span class="ch c3">&nbsp;</span><span class="ch c3">L</span><span class="ch c3">U</span><span class="ch c3">A</span></div><div id="v3b0" class="vbar" style="left:190px;top:640px;width:330px;height:320px;background:#eaf1fb"></div><div id="v3t0" class="vval" style="left:190px;width:330px;top:972px;color:#eaf1fb">0</div><div class="vlab" style="left:190px;width:330px;top:1040px;font-size:44px">Pirâmide</div><div id="v3b1" class="vbar" style="left:560px;top:704px;width:330px;height:256px;background:#ff7a1a"></div><div id="v3t1" class="vval" style="left:560px;width:330px;top:972px;color:#ff7a1a">0</div><div class="vlab" style="left:560px;width:330px;top:1040px;font-size:44px">Lua</div></div>
+<div class="clip scn" id="s4" data-start="23.147" data-duration="5.323" data-track-index="4" style="position:absolute;inset:0"><div class="t big" style="top:196px;font-size:132px"><span class="ch c4">Q</span><span class="ch c4">U</span><span class="ch c4">A</span><span class="ch c4">L</span><span class="ch c4">&nbsp;</span><span class="ch c4">F</span><span class="ch c4">A</span><span class="ch c4">T</span><span class="ch c4">O</span></div><div class="t big acc" style="top:340px;font-size:94px"><span class="ch c4">T</span><span class="ch c4">E</span><span class="ch c4">&nbsp;</span><span class="ch c4">E</span><span class="ch c4">S</span><span class="ch c4">P</span><span class="ch c4">A</span><span class="ch c4">N</span><span class="ch c4">T</span><span class="ch c4">O</span><span class="ch c4">U</span><span class="ch c4">?</span><span class="ch c4">&nbsp;</span><span class="ch c4">🤯</span></div><div class="t" id="comm">👇 Responde nos comentários.</div></div>
+<div class="clip sub" id="sub0" data-start="0.35" data-duration="2.103" data-track-index="9">Cleópatra viveu mais perto da</div>
+<div class="clip sub" id="sub1" data-start="2.453" data-duration="2.103" data-track-index="9">chegada do homem à Lua do que</div>
+<div class="clip sub" id="sub2" data-start="4.557" data-duration="1.668" data-track-index="9">da construção da Grande</div>
+<div class="clip sub" id="sub3" data-start="6.225" data-duration="0.903" data-track-index="9">Pirâmide.</div>
+<div class="clip sub" id="sub4" data-start="7.098" data-duration="1.158" data-track-index="9">A Grande Pirâmide foi</div>
+<div class="clip sub" id="sub5" data-start="8.256" data-duration="1.545" data-track-index="9">construída por volta de dois</div>
+<div class="clip sub" id="sub6" data-start="9.801" data-duration="1.655" data-track-index="9">mil e quinhentos anos antes de</div>
+<div class="clip sub" id="sub7" data-start="11.456" data-duration="0.636" data-track-index="9">Cristo.</div>
+<div class="clip sub" id="sub8" data-start="12.062" data-duration="1.596" data-track-index="9">Cleópatra morreu em trinta</div>
+<div class="clip sub" id="sub9" data-start="13.658" data-duration="0.982" data-track-index="9">antes de Cristo,</div>
+<div class="clip sub" id="sub10" data-start="14.639" data-duration="2.03" data-track-index="9">mais de dois mil anos depois.</div>
+<div class="clip sub" id="sub11" data-start="16.639" data-duration="1.631" data-track-index="9">E de Cleópatra até a chegada</div>
+<div class="clip sub" id="sub12" data-start="18.27" data-duration="0.874" data-track-index="9">do homem à Lua,</div>
+<div class="clip sub" id="sub13" data-start="19.144" data-duration="1.748" data-track-index="9">em mil novecentos e sessenta e</div>
+<div class="clip sub" id="sub14" data-start="20.892" data-duration="1.631" data-track-index="9">nove, passaram cerca de dois</div>
+<div class="clip sub" id="sub15" data-start="22.523" data-duration="0.774" data-track-index="9">mil anos.</div>
+<div class="clip sub" id="sub16" data-start="23.267" data-duration="0.92" data-track-index="9">Agora me diz:</div>
+<div class="clip sub" id="sub17" data-start="24.187" data-duration="1.698" data-track-index="9">qual fato de história te</div>
+<div class="clip sub" id="sub18" data-start="25.884" data-duration="1.736" data-track-index="9">deixou mais surpreso?</div>
+<audio id="aud" src="assets/mix.wav" data-start="0" data-duration="28.47" data-track-index="10" data-volume="1"></audio>
+</div>
+<script>
+const tl = gsap.timeline({paused:true});
+const S = [0.0, 6.978, 11.942, 16.519, 23.147, 28.47], TOT = 28.47; const E="power3.out", SP="back.out(1.8)";
+const fmt = v => Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,".");
+function chars(sel,t,st){ tl.fromTo(sel,{y:60,opacity:0,scale:.7},{y:0,opacity:1,scale:1,duration:.45,ease:SP,stagger:st},t); }
+function out(sel,t){ tl.to(sel,{y:-70,opacity:0,duration:.2,ease:"power2.in"},t); }
+tl.to("#r1",{y:-260,rotation:90,duration:TOT,ease:"none"},0).to("#r2",{y:-300,duration:TOT,ease:"none"},0).to("#r3",{y:200,x:-80,duration:TOT,ease:"none"},0).to("#r4",{y:-220,x:120,duration:TOT,ease:"none"},0);
+tl.to("#bg1",{opacity:1,duration:.35,ease:"none"},S[1]);tl.to("#bg2",{opacity:1,duration:.35,ease:"none"},S[2]);tl.to("#bg3",{opacity:1,duration:.35,ease:"none"},S[3]);tl.to("#bg4",{opacity:1,duration:.35,ease:"none"},S[4]);
+tl.fromTo(".c0",{opacity:1,y:0,scale:1},{opacity:1,y:0,scale:1,duration:.01},0);
+out(".c0",S[1]-.22);
+
+chars(".c1",S[1]+.08,.03);
+out(".c1",S[2]-.22);
+tl.fromTo("#v1e",{scale:.3,opacity:0},{scale:1,opacity:1,duration:.6,ease:SP},S[1]+.15);const o1={v:0};tl.to(o1,{v:2500,duration:2.0,ease:"power2.inOut",onUpdate:()=>{document.getElementById("v1n").textContent=fmt(o1.v)+"  a.C."}},S[1]+.6);
+chars(".c2",S[2]+.08,.03);
+out(".c2",S[3]-.22);
+tl.fromTo("#v2e",{scale:.3,opacity:0},{scale:1,opacity:1,duration:.6,ease:SP},S[2]+.15);const o2={v:0};tl.to(o2,{v:30,duration:1.2,ease:"power2.inOut",onUpdate:()=>{document.getElementById("v2n").textContent=fmt(o2.v)+"  a.C."}},S[2]+.6);
+chars(".c3",S[3]+.08,.03);
+out(".c3",S[4]-.22);
+tl.fromTo("#v3b0",{scaleY:0,transformOrigin:"50% 100%"},{scaleY:1,duration:1.0,ease:"power3.out"},S[3]+0.4);const ob30={v:0};tl.to(ob30,{v:2500,duration:1.2,ease:"power2.out",onUpdate:()=>{document.getElementById("v3t0").textContent=fmt(ob30.v)+" anos"}},S[3]+0.4);tl.fromTo("#v3b1",{scaleY:0,transformOrigin:"50% 100%"},{scaleY:1,duration:1.0,ease:"power3.out"},S[3]+1.4);const ob31={v:0};tl.to(ob31,{v:2000,duration:1.2,ease:"power2.out",onUpdate:()=>{document.getElementById("v3t1").textContent=fmt(ob31.v)+" anos"}},S[3]+1.4);
+chars(".c4",S[4]+.08,.03);
+
+tl.fromTo("#comm",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:E},S[4]+2.4);
+tl.fromTo("#sub0",{scale:.92},{scale:1,duration:.18,ease:E},0.35);
+tl.fromTo("#sub1",{scale:.92},{scale:1,duration:.18,ease:E},2.453);
+tl.fromTo("#sub2",{scale:.92},{scale:1,duration:.18,ease:E},4.557);
+tl.fromTo("#sub3",{scale:.92},{scale:1,duration:.18,ease:E},6.225);
+tl.fromTo("#sub4",{scale:.92},{scale:1,duration:.18,ease:E},7.098);
+tl.fromTo("#sub5",{scale:.92},{scale:1,duration:.18,ease:E},8.256);
+tl.fromTo("#sub6",{scale:.92},{scale:1,duration:.18,ease:E},9.801);
+tl.fromTo("#sub7",{scale:.92},{scale:1,duration:.18,ease:E},11.456);
+tl.fromTo("#sub8",{scale:.92},{scale:1,duration:.18,ease:E},12.062);
+tl.fromTo("#sub9",{scale:.92},{scale:1,duration:.18,ease:E},13.658);
+tl.fromTo("#sub10",{scale:.92},{scale:1,duration:.18,ease:E},14.639);
+tl.fromTo("#sub11",{scale:.92},{scale:1,duration:.18,ease:E},16.639);
+tl.fromTo("#sub12",{scale:.92},{scale:1,duration:.18,ease:E},18.27);
+tl.fromTo("#sub13",{scale:.92},{scale:1,duration:.18,ease:E},19.144);
+tl.fromTo("#sub14",{scale:.92},{scale:1,duration:.18,ease:E},20.892);
+tl.fromTo("#sub15",{scale:.92},{scale:1,duration:.18,ease:E},22.523);
+tl.fromTo("#sub16",{scale:.92},{scale:1,duration:.18,ease:E},23.267);
+tl.fromTo("#sub17",{scale:.92},{scale:1,duration:.18,ease:E},24.187);
+tl.fromTo("#sub18",{scale:.92},{scale:1,duration:.18,ease:E},25.884);
+window.__timelines["main"] = tl;
+</script></body></html>

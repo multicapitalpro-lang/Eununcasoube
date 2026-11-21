@@ -39,7 +39,7 @@ for i, sc in enumerate(SPEC["scenes"]):
     else: sizes = ((200, 58), (290, 118), (410, 118))
     def fit(text, size):
         n = len(_re.sub(r"[^\w ?$,.%]", "", text)) + 2*len(_re.findall(r"[^\w\s?$,.%]", text))
-        return min(size, int(990/(max(n,1)*0.60)))
+        return min(size, int(940/(max(n,1)*0.66)))
     sizes = tuple((y, fit(t, sz) if k_ else sz) for k_, (y, sz), t in zip((0,1,1), sizes, (k, b1, b2)))
     parts = ""
     if k: parts += f'<div class="t small" style="top:{sizes[0][0]}px;font-size:{sizes[0][1]}px">{ch(k,f"c{i}")}</div>'
@@ -54,7 +54,7 @@ for i, sc in enumerate(SPEC["scenes"]):
         vh = f'<div id="v{i}e" class="vem" style="top:620px">{v["emoji"]}</div>'
         vj = f'tl.fromTo("#v{i}e",{{scale:.3,opacity:0}},{{scale:1,opacity:1,duration:.6,ease:SP}},S[{i}]+.2);tl.to("#v{i}e",{{scale:1.12,duration:.5,yoyo:true,repeat:5,ease:"sine.inOut"}},S[{i}]+.9);'
     elif t == "counter":
-        vh = f'<div id="v{i}e" class="vem" style="top:600px;font-size:170px">{v["emoji"]}</div><div id="v{i}n" class="vnum" style="top:790px">{fm(v["from"])}</div><div class="vlab" style="top:1030px">{html.escape(v["label"])}</div>'
+        vh = f'<div id="v{i}e" class="vem" style="top:600px;font-size:170px">{v["emoji"]}</div><div id="v{i}n" class="vnum" style="top:790px;font-size:{min(230, int(940/((len(fm(max(v["from"], v["to"])))+len(v.get("suffix","")))*0.62)))}px;white-space:nowrap">{fm(v["from"])}</div><div class="vlab" style="top:1030px">{html.escape(v["label"])}</div>'
         vj = (f'tl.fromTo("#v{i}e",{{scale:.3,opacity:0}},{{scale:1,opacity:1,duration:.6,ease:SP}},S[{i}]+.15);'
               f'const o{i}={{v:{v["from"]}}};tl.to(o{i},{{v:{v["to"]},duration:{v.get("d",2.4)},ease:"power2.inOut",onUpdate:()=>{{document.getElementById("v{i}n").textContent=fmt(o{i}.v)+"{v.get("suffix","")}"}}}},S[{i}]+.6);'
               + (f'tl.to("#v{i}n",{{color:"#ff7a1a",duration:.3}},S[{i}]+2.6);' if v.get("hot") else ""))

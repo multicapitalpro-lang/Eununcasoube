@@ -1,0 +1,96 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+:root{--ice:#eaf1fb;--silver:#aab7ca;--acc:#ff7a1a;--font:"Nunito",sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0d1220}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:var(--font);color:var(--ice)}
+.bg{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.ring{position:absolute;border:3px solid rgba(234,241,251,.12);border-radius:50%}
+.ch{display:inline-block}.t{position:absolute;left:0;width:1080px;text-align:center;line-height:1.05}
+.small{font-weight:600;color:var(--ice)}.big{font-weight:900;letter-spacing:-2px;color:var(--ice)}.acc{color:var(--acc)}
+.sub{position:absolute;left:60px;width:960px;top:1176px;text-align:center;font-weight:800;font-size:60px;line-height:1.1;color:#fff;
+ text-shadow:3px 0 0 #0d1220,-3px 0 0 #0d1220,0 3px 0 #0d1220,0 -3px 0 #0d1220,2px 2px 0 #0d1220,-2px -2px 0 #0d1220,2px -2px 0 #0d1220,-2px 2px 0 #0d1220}
+.vem{position:absolute;left:0;width:1080px;text-align:center;font-size:300px;line-height:1.1}
+.vnum{position:absolute;left:0;width:1080px;text-align:center;font-weight:900;font-size:230px;line-height:1;color:var(--ice)}
+.vlab{position:absolute;left:0;width:1080px;text-align:center;font-weight:700;font-size:50px;color:var(--silver)}
+.vbar{position:absolute;border-radius:24px 24px 0 0}
+.vval{position:absolute;text-align:center;font-weight:900;font-size:56px;line-height:1.1;white-space:nowrap}
+.vring{position:absolute;left:440px;top:800px;width:200px;height:200px;border:10px solid var(--acc);border-radius:50%;opacity:0}
+.vprice{position:absolute;left:0;width:1080px;text-align:center;font-weight:900;line-height:1;color:var(--ice)}
+.vring2{position:absolute;left:472px;top:770px;width:150px;height:250px;border:10px solid var(--acc);border-radius:50%;opacity:0}
+.vcirc{position:absolute;border-radius:50%}
+#comm{top:1262px;font-weight:700;font-size:50px;color:var(--ice)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="27.219" data-width="1080" data-height="1920">
+<div id="back" class="clip" data-start="0" data-duration="27.219" data-track-index="0" style="position:absolute;inset:0">
+<div id="bg0" class="bg" style="opacity:1;background:radial-gradient(ellipse 800px 900px at 540px 780px,#27386a 0%,#131b3a 55%,#0a0f22 100%)"></div><div id="bg1" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#2a5560 0%,#16303a 55%,#0c1a22 100%)"></div><div id="bg2" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#27386a 0%,#131b3a 55%,#0a0f22 100%)"></div><div id="bg3" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#7a4326 0%,#3b241e 55%,#1a1216 100%)"></div><div id="bg4" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#27386a 0%,#131b3a 55%,#0a0f22 100%)"></div>
+<div class="ring" id="r1" style="left:-120px;top:240px;width:380px;height:380px"></div><div class="ring" id="r2" style="left:820px;top:980px;width:300px;height:300px"></div>
+<div class="ring" id="r3" style="left:760px;top:120px;width:200px;height:200px"></div><div class="ring" id="r4" style="left:-60px;top:1000px;width:240px;height:240px"></div>
+</div>
+<video id="mv0" class="clip" data-start="0.0" data-duration="4.132" data-track-index="1" muted playsinline src="assets/clip-s0.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video><div id="ms0" class="clip" data-start="0.0" data-duration="4.132" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,32,.80) 0%,rgba(13,18,32,.46) 42%,rgba(13,18,32,.82) 100%)"></div>
+<video id="mv4" class="clip" data-start="23.361" data-duration="3.858" data-track-index="1" muted playsinline src="assets/clip-s4.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video><div id="ms4" class="clip" data-start="23.361" data-duration="3.858" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,32,.80) 0%,rgba(13,18,32,.46) 42%,rgba(13,18,32,.82) 100%)"></div>
+<div class="clip scn" id="s0" data-start="0.0" data-duration="4.132" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:178px;font-size:64px"><span class="ch c0">U</span><span class="ch c0">M</span><span class="ch c0">&nbsp;</span><span class="ch c0">B</span><span class="ch c0">I</span><span class="ch c0">C</span><span class="ch c0">H</span><span class="ch c0">I</span><span class="ch c0">N</span><span class="ch c0">H</span><span class="ch c0">O</span></div><div class="t big" style="top:250px;font-size:132px"><span class="ch c0">S</span><span class="ch c0">O</span><span class="ch c0">B</span><span class="ch c0">R</span><span class="ch c0">E</span><span class="ch c0">V</span><span class="ch c0">I</span><span class="ch c0">V</span><span class="ch c0">E</span><span class="ch c0">U</span></div><div class="t big acc" style="top:396px;font-size:150px"><span class="ch c0">A</span><span class="ch c0">O</span><span class="ch c0">&nbsp;</span><span class="ch c0">E</span><span class="ch c0">S</span><span class="ch c0">P</span><span class="ch c0">A</span><span class="ch c0">Ç</span><span class="ch c0">O</span></div></div>
+<div class="clip scn" id="s1" data-start="4.132" data-duration="4.348" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:200px;font-size:58px"><span class="ch c1">O</span><span class="ch c1">&nbsp;</span><span class="ch c1">t</span><span class="ch c1">a</span><span class="ch c1">r</span><span class="ch c1">d</span><span class="ch c1">í</span><span class="ch c1">g</span><span class="ch c1">r</span><span class="ch c1">a</span><span class="ch c1">d</span><span class="ch c1">o</span><span class="ch c1">,</span></div><div class="t big" style="top:290px;font-size:118px"><span class="ch c1">C</span><span class="ch c1">H</span><span class="ch c1">A</span><span class="ch c1">M</span><span class="ch c1">A</span><span class="ch c1">D</span><span class="ch c1">O</span><span class="ch c1">&nbsp;</span><span class="ch c1">D</span><span class="ch c1">E</span></div><div class="t big acc" style="top:410px;font-size:101px"><span class="ch c1">U</span><span class="ch c1">R</span><span class="ch c1">S</span><span class="ch c1">O</span><span class="ch c1">-</span><span class="ch c1">D</span><span class="ch c1">&#x27;</span><span class="ch c1">Á</span><span class="ch c1">G</span><span class="ch c1">U</span><span class="ch c1">A</span><span class="ch c1">.</span></div><div id="v1e" class="vem" style="top:620px">🔬</div></div>
+<div class="clip scn" id="s2" data-start="8.48" data-duration="7.595" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:200px;font-size:58px"><span class="ch c2">E</span><span class="ch c2">m</span><span class="ch c2">&nbsp;</span><span class="ch c2">2</span><span class="ch c2">0</span><span class="ch c2">0</span><span class="ch c2">7</span><span class="ch c2">,</span><span class="ch c2">&nbsp;</span><span class="ch c2">e</span><span class="ch c2">m</span><span class="ch c2">&nbsp;</span><span class="ch c2">ó</span><span class="ch c2">r</span><span class="ch c2">b</span><span class="ch c2">i</span><span class="ch c2">t</span><span class="ch c2">a</span><span class="ch c2">,</span></div><div class="t big" style="top:290px;font-size:118px"><span class="ch c2">M</span><span class="ch c2">U</span><span class="ch c2">I</span><span class="ch c2">T</span><span class="ch c2">O</span><span class="ch c2">S</span></div><div class="t big acc" style="top:410px;font-size:89px"><span class="ch c2">V</span><span class="ch c2">O</span><span class="ch c2">L</span><span class="ch c2">T</span><span class="ch c2">A</span><span class="ch c2">R</span><span class="ch c2">A</span><span class="ch c2">M</span><span class="ch c2">&nbsp;</span><span class="ch c2">À</span><span class="ch c2">&nbsp;</span><span class="ch c2">V</span><span class="ch c2">I</span><span class="ch c2">D</span><span class="ch c2">A</span><span class="ch c2">.</span></div><div id="v2e" class="vem" style="top:600px;font-size:170px">🚀</div><div id="v2n" class="vnum" style="top:790px;font-size:189px;white-space:nowrap">0</div><div class="vlab" style="top:1030px">no vácuo, em órbita</div></div>
+<div class="clip scn" id="s3" data-start="16.075" data-duration="7.286" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:200px;font-size:58px"><span class="ch c3">A</span><span class="ch c3">&nbsp;</span><span class="ch c3">r</span><span class="ch c3">a</span><span class="ch c3">d</span><span class="ch c3">i</span><span class="ch c3">a</span><span class="ch c3">ç</span><span class="ch c3">ã</span><span class="ch c3">o</span><span class="ch c3">&nbsp;</span><span class="ch c3">u</span><span class="ch c3">l</span><span class="ch c3">t</span><span class="ch c3">r</span><span class="ch c3">a</span><span class="ch c3">v</span><span class="ch c3">i</span><span class="ch c3">o</span><span class="ch c3">l</span><span class="ch c3">e</span><span class="ch c3">t</span><span class="ch c3">a</span></div><div class="t big" style="top:290px;font-size:118px"><span class="ch c3">F</span><span class="ch c3">O</span><span class="ch c3">I</span><span class="ch c3">&nbsp;</span><span class="ch c3">M</span><span class="ch c3">U</span><span class="ch c3">I</span><span class="ch c3">T</span><span class="ch c3">O</span></div><div class="t big acc" style="top:410px;font-size:101px"><span class="ch c3">M</span><span class="ch c3">A</span><span class="ch c3">I</span><span class="ch c3">S</span><span class="ch c3">&nbsp;</span><span class="ch c3">P</span><span class="ch c3">E</span><span class="ch c3">R</span><span class="ch c3">I</span><span class="ch c3">G</span><span class="ch c3">O</span><span class="ch c3">S</span><span class="ch c3">A</span><span class="ch c3">.</span></div><div id="v3e" class="vem" style="top:620px">🌞</div></div>
+<div class="clip scn" id="s4" data-start="23.361" data-duration="3.858" data-track-index="4" style="position:absolute;inset:0"><div class="t big" style="top:196px;font-size:132px"><span class="ch c4">V</span><span class="ch c4">O</span><span class="ch c4">C</span><span class="ch c4">Ê</span><span class="ch c4">&nbsp;</span><span class="ch c4">O</span></div><div class="t big acc" style="top:340px;font-size:118px"><span class="ch c4">C</span><span class="ch c4">O</span><span class="ch c4">N</span><span class="ch c4">H</span><span class="ch c4">E</span><span class="ch c4">C</span><span class="ch c4">I</span><span class="ch c4">A</span><span class="ch c4">?</span><span class="ch c4">&nbsp;</span><span class="ch c4">🔬</span></div><div class="t" id="comm">👇 Responde nos comentários.</div></div>
+<div class="clip sub" id="sub0" data-start="0.35" data-duration="1.611" data-track-index="9">Existe um bichinho minúsculo</div>
+<div class="clip sub" id="sub1" data-start="1.961" data-duration="1.668" data-track-index="9">que já sobreviveu ao vácuo do</div>
+<div class="clip sub" id="sub2" data-start="3.629" data-duration="0.653" data-track-index="9">espaço.</div>
+<div class="clip sub" id="sub3" data-start="4.252" data-duration="1.376" data-track-index="9">É o tardígrado,</div>
+<div class="clip sub" id="sub4" data-start="5.628" data-duration="3.002" data-track-index="9">também chamado de urso-d&#x27;água.</div>
+<div class="clip sub" id="sub5" data-start="8.6" data-duration="1.274" data-track-index="9">Em dois mil e sete,</div>
+<div class="clip sub" id="sub6" data-start="9.874" data-duration="1.944" data-track-index="9">tardígrados passaram cerca de</div>
+<div class="clip sub" id="sub7" data-start="11.818" data-duration="1.274" data-track-index="9">dez dias em órbita,</div>
+<div class="clip sub" id="sub8" data-start="13.092" data-duration="1.207" data-track-index="9">expostos ao vácuo,</div>
+<div class="clip sub" id="sub9" data-start="14.299" data-duration="1.926" data-track-index="9">e muitos voltaram à vida.</div>
+<div class="clip sub" id="sub10" data-start="16.195" data-duration="1.933" data-track-index="9">Já a radiação ultravioleta do</div>
+<div class="clip sub" id="sub11" data-start="18.128" data-duration="1.733" data-track-index="9">Sol foi bem mais perigosa:</div>
+<div class="clip sub" id="sub12" data-start="19.861" data-duration="1.733" data-track-index="9">poucos sobreviveram quando</div>
+<div class="clip sub" id="sub13" data-start="21.594" data-duration="1.917" data-track-index="9">receberam as duas coisas.</div>
+<div class="clip sub" id="sub14" data-start="23.481" data-duration="0.836" data-track-index="9">Agora me diz:</div>
+<div class="clip sub" id="sub15" data-start="24.317" data-duration="2.052" data-track-index="9">você conhecia esse bichinho?</div>
+<audio id="aud" src="assets/mix.wav" data-start="0" data-duration="27.219" data-track-index="10" data-volume="1"></audio>
+</div>
+<script>
+const tl = gsap.timeline({paused:true});
+const S = [0.0, 4.132, 8.48, 16.075, 23.361, 27.219], TOT = 27.219; const E="power3.out", SP="back.out(1.8)";
+const fmt = v => Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,".");
+function chars(sel,t,st){ tl.fromTo(sel,{y:60,opacity:0,scale:.7},{y:0,opacity:1,scale:1,duration:.45,ease:SP,stagger:st},t); }
+function out(sel,t){ tl.to(sel,{y:-70,opacity:0,duration:.2,ease:"power2.in"},t); }
+tl.to("#r1",{y:-260,rotation:90,duration:TOT,ease:"none"},0).to("#r2",{y:-300,duration:TOT,ease:"none"},0).to("#r3",{y:200,x:-80,duration:TOT,ease:"none"},0).to("#r4",{y:-220,x:120,duration:TOT,ease:"none"},0);
+tl.to("#bg1",{opacity:1,duration:.35,ease:"none"},S[1]);tl.to("#bg2",{opacity:1,duration:.35,ease:"none"},S[2]);tl.to("#bg3",{opacity:1,duration:.35,ease:"none"},S[3]);tl.to("#bg4",{opacity:1,duration:.35,ease:"none"},S[4]);
+tl.fromTo(".c0",{opacity:1,y:0,scale:1},{opacity:1,y:0,scale:1,duration:.01},0);
+out(".c0",S[1]-.22);
+
+chars(".c1",S[1]+.08,.03);
+out(".c1",S[2]-.22);
+tl.fromTo("#v1e",{scale:.3,opacity:0},{scale:1,opacity:1,duration:.6,ease:SP},S[1]+.2);tl.to("#v1e",{scale:1.12,duration:.5,yoyo:true,repeat:5,ease:"sine.inOut"},S[1]+.9);
+chars(".c2",S[2]+.08,.03);
+out(".c2",S[3]-.22);
+tl.fromTo("#v2e",{scale:.3,opacity:0},{scale:1,opacity:1,duration:.6,ease:SP},S[2]+.15);const o2={v:0};tl.to(o2,{v:10,duration:1.6,ease:"power2.inOut",onUpdate:()=>{document.getElementById("v2n").textContent=fmt(o2.v)+"  dias"}},S[2]+.6);
+chars(".c3",S[3]+.08,.03);
+out(".c3",S[4]-.22);
+tl.fromTo("#v3e",{scale:.3,opacity:0},{scale:1,opacity:1,duration:.6,ease:SP},S[3]+.2);tl.to("#v3e",{scale:1.12,duration:.5,yoyo:true,repeat:5,ease:"sine.inOut"},S[3]+.9);
+chars(".c4",S[4]+.08,.03);
+
+tl.fromTo("#comm",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:E},S[4]+2.4);
+tl.fromTo("#sub0",{scale:.92},{scale:1,duration:.18,ease:E},0.35);
+tl.fromTo("#sub1",{scale:.92},{scale:1,duration:.18,ease:E},1.961);
+tl.fromTo("#sub2",{scale:.92},{scale:1,duration:.18,ease:E},3.629);
+tl.fromTo("#sub3",{scale:.92},{scale:1,duration:.18,ease:E},4.252);
+tl.fromTo("#sub4",{scale:.92},{scale:1,duration:.18,ease:E},5.628);
+tl.fromTo("#sub5",{scale:.92},{scale:1,duration:.18,ease:E},8.6);
+tl.fromTo("#sub6",{scale:.92},{scale:1,duration:.18,ease:E},9.874);
+tl.fromTo("#sub7",{scale:.92},{scale:1,duration:.18,ease:E},11.818);
+tl.fromTo("#sub8",{scale:.92},{scale:1,duration:.18,ease:E},13.092);
+tl.fromTo("#sub9",{scale:.92},{scale:1,duration:.18,ease:E},14.299);
+tl.fromTo("#sub10",{scale:.92},{scale:1,duration:.18,ease:E},16.195);
+tl.fromTo("#sub11",{scale:.92},{scale:1,duration:.18,ease:E},18.128);
+tl.fromTo("#sub12",{scale:.92},{scale:1,duration:.18,ease:E},19.861);
+tl.fromTo("#sub13",{scale:.92},{scale:1,duration:.18,ease:E},21.594);
+tl.fromTo("#sub14",{scale:.92},{scale:1,duration:.18,ease:E},23.481);
+tl.fromTo("#sub15",{scale:.92},{scale:1,duration:.18,ease:E},24.317);
+window.__timelines["main"] = tl;
+</script></body></html>
