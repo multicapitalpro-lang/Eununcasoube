@@ -25,7 +25,7 @@ subjs = "\n".join(f'tl.fromTo("#sub{k}",{{scale:.92}},{{scale:1,duration:.18,eas
 bgdiv = "".join(f'<div id="bg{i}" class="bg" style="opacity:{1 if i==0 else 0};background:radial-gradient(ellipse 800px 900px at 540px 780px,{BGS[sc["bg"]][0]} 0%,{BGS[sc["bg"]][1]} 55%,{BGS[sc["bg"]][2]} 100%)"></div>' for i, sc in enumerate(SPEC["scenes"]))
 bgjs = "".join(f'tl.to("#bg{i}",{{opacity:1,duration:.35,ease:"none"}},S[{i}]);' for i in range(1, N))
 fm = lambda v: f"{int(round(v)):,}".replace(",", ".")
-scn, js = [], []
+scn, js, media = [], [], []
 for i, sc in enumerate(SPEC["scenes"]):
     first, last = i == 0, i == N-1
     k, b1, b2 = sc.get("kicker", ""), sc["big1"], sc.get("big2", "")
@@ -42,6 +42,10 @@ for i, sc in enumerate(SPEC["scenes"]):
     parts += f'<div class="t big" style="top:{sizes[1][0]}px;font-size:{sizes[1][1]}px">{ch(b1,f"c{i}")}</div>'
     if b2: parts += f'<div class="t big acc" style="top:{sizes[2][0]}px;font-size:{sizes[2][1]}px">{ch(b2,f"c{i}")}</div>'
     v = sc["viz"]; t = v["type"]; vh = ""; vj = ""
+    if sc.get("clip"):
+        t = "none"
+        media.append(f'<video id="mv{i}" class="clip" data-start="{S[i]}" data-duration="{dur}" data-track-index="1" muted playsinline src="{sc["clip"]}" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video>'
+                     f'<div id="ms{i}" class="clip" data-start="{S[i]}" data-duration="{dur}" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,32,.80) 0%,rgba(13,18,32,.46) 42%,rgba(13,18,32,.82) 100%)"></div>')
     if t == "emoji":
         vh = f'<div id="v{i}e" class="vem" style="top:620px">{v["emoji"]}</div>'
         vj = f'tl.fromTo("#v{i}e",{{scale:.3,opacity:0}},{{scale:1,opacity:1,duration:.6,ease:SP}},S[{i}]+.2);tl.to("#v{i}e",{{scale:1.12,duration:.5,yoyo:true,repeat:5,ease:"sine.inOut"}},S[{i}]+.9);'
@@ -114,6 +118,7 @@ html,body{{width:1080px;height:1920px;overflow:hidden;background:#0d1220}}
 <div class="ring" id="r1" style="left:-120px;top:240px;width:380px;height:380px"></div><div class="ring" id="r2" style="left:820px;top:980px;width:300px;height:300px"></div>
 <div class="ring" id="r3" style="left:760px;top:120px;width:200px;height:200px"></div><div class="ring" id="r4" style="left:-60px;top:1000px;width:240px;height:240px"></div>
 </div>
+{chr(10).join(media)}
 {chr(10).join(scn)}
 {subhtml}
 <audio id="aud" src="assets/mix.wav" data-start="0" data-duration="{TOT}" data-track-index="10" data-volume="1"></audio>

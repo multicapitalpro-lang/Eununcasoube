@@ -15,7 +15,8 @@
    "viz": {
     "type": "emoji",
     "emoji": "👶"
-   }
+   },
+   "clip": "assets/clip-s0.mp4"
   },
   {
    "bg": "teal",
@@ -54,7 +55,8 @@
    "viz": {
     "type": "emoji",
     "emoji": "🤝"
-   }
+   },
+   "clip": "assets/clip-s3.mp4"
   },
   {
    "bg": "night",
@@ -63,7 +65,8 @@
    "viz": {
     "type": "emoji",
     "emoji": "🦴"
-   }
+   },
+   "clip": "assets/clip-s4.mp4"
   }
  ]
 }

@@ -1,0 +1,82 @@
+[
+ {
+  "video": "02-raio",
+  "scene": 0,
+  "cand": "raio5",
+  "i": 2,
+  "x": 0.5,
+  "ss": 5.2
+ },
+ {
+  "video": "02-raio",
+  "scene": 4,
+  "cand": "raio5",
+  "i": 1,
+  "x": 0.5,
+  "zoom": 0.88
+ },
+ {
+  "video": "03-ossos",
+  "scene": 0,
+  "cand": "oss1",
+  "i": 3,
+  "x": 0.3
+ },
+ {
+  "video": "03-ossos",
+  "scene": 3,
+  "cand": "oss4",
+  "i": 1,
+  "x": 0.5,
+  "ss": 6
+ },
+ {
+  "video": "03-ossos",
+  "scene": 4,
+  "cand": "oss5",
+  "i": 1,
+  "x": 0.5
+ },
+ {
+  "video": "04-preco",
+  "scene": 0,
+  "cand": "pre1",
+  "i": 3,
+  "x": 0.3
+ },
+ {
+  "video": "04-preco",
+  "scene": 3,
+  "cand": "pre4",
+  "i": 2,
+  "x": 0.5
+ },
+ {
+  "video": "04-preco",
+  "scene": 4,
+  "cand": "pre5",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "05-apollo",
+  "scene": 0,
+  "cand": "apo1",
+  "i": 3,
+  "x": 0.5
+ },
+ {
+  "video": "05-apollo",
+  "scene": 3,
+  "cand": "apo4",
+  "i": 2,
+  "x": 0.5
+ },
+ {
+  "video": "05-apollo",
+  "scene": 4,
+  "cand": "apo5",
+  "i": 1,
+  "x": 0.5
+ }
+]
