@@ -20,9 +20,11 @@ Dica: dá para agendar a semana inteira em uma sentada.
 1. No site do TikTok, abra a área de **Upload** e envie o `.mp4`.
 2. Cole a legenda do TikTok e ative a opção de **agendar**, se aparecer, com a data e a hora da agenda.
 3. Marque o aviso de **conteúdo de IA** se for pedido.
-Observação: a opção de agendar costuma ter limite de dias de antecedência. Se não aparecer, poste manualmente nos horários.
+Limite: segundo guias de terceiros (e um anúncio antigo do TikTok), o agendamento nativo vai de 15 minutos até 10 dias de antecedência, e só em contas Criador/Business, normalmente pelo computador. Por isso, agende o TikTok de poucos em poucos dias. Se a opção não aparecer, poste manualmente nos horários ou use um agendador de terceiros (ex.: Buffer, Hootsuite).
 
 ## YouTube Shorts
+Atenção no celular: é fácil publicar na hora sem querer. Prefira o computador. Sempre confira se o botão diz "Programar/Agendar" antes de confirmar, e o fuso horário.
+
 1. No YouTube Studio, clique em **Criar → Enviar vídeos** e envie o `.mp4` (vertical, menos de 3 minutos).
 2. Use o **Título** e a **Descrição** da versão Shorts, em `legendas/NN.txt`.
 3. Em **Visibilidade**, escolha **Programar** e defina data e hora.
