@@ -1,0 +1,77 @@
+{
+ "lines": [
+  "O seu cérebro é só dois por cento do seu peso, mas usa cerca de vinte por cento da sua energia.",
+  "Isso é em repouso, mesmo quando você está só deitado, sem fazer nada.",
+  "Em bebês, essa fatia é ainda maior.",
+  "E pensar em algo difícil gasta só um pouquinho a mais do que descansar.",
+  "Agora me diz: você pensa melhor de manhã ou à noite?"
+ ],
+ "scenes": [
+  {
+   "bg": "blue",
+   "big1": "20% DA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧠"
+   },
+   "kicker": "2% DO PESO",
+   "big2": "ENERGIA",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "purple",
+   "big1": "SÓ 2% DO PESO",
+   "viz": {
+    "type": "bars",
+    "max": 20,
+    "items": [
+     {
+      "name": "Peso",
+      "val": 2,
+      "suffix": "%",
+      "at": 0.4
+     },
+     {
+      "name": "Energia",
+      "val": 20,
+      "suffix": "%",
+      "color": "#ff7a1a",
+      "at": 1.2
+     }
+    ]
+   },
+   "kicker": "Em repouso, o cérebro usa:",
+   "big2": "MAS 20% DA ENERGIA"
+  },
+  {
+   "bg": "teal",
+   "big1": "A FATIA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "👶"
+   },
+   "kicker": "Em bebês,",
+   "big2": "É MAIOR."
+  },
+  {
+   "bg": "warm",
+   "big1": "SÓ UM POUCO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧠"
+   },
+   "kicker": "Pensar em algo difícil gasta",
+   "big2": "A MAIS."
+  },
+  {
+   "bg": "night",
+   "big1": "MANHÃ OU",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌙"
+   },
+   "big2": "NOITE? 🧠",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

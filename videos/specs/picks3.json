@@ -1,0 +1,142 @@
+[
+ {
+  "video": "12-sol",
+  "scene": 0,
+  "cand": "sol0",
+  "i": 3,
+  "x": 0.6
+ },
+ {
+  "video": "12-sol",
+  "scene": 4,
+  "cand": "sol4",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "13-cleopatra",
+  "scene": 0,
+  "cand": "cle0",
+  "i": 3,
+  "x": 0.45
+ },
+ {
+  "video": "13-cleopatra",
+  "scene": 4,
+  "cand": "cle4",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "14-venus",
+  "scene": 0,
+  "cand": "ven0",
+  "i": 2,
+  "x": 0.5
+ },
+ {
+  "video": "14-venus",
+  "scene": 4,
+  "cand": "ven4",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "15-webcam",
+  "scene": 0,
+  "cand": "web0",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "15-webcam",
+  "scene": 4,
+  "cand": "web4",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "16-cerebro",
+  "scene": 0,
+  "cand": "cer0",
+  "i": 0,
+  "x": 0.4
+ },
+ {
+  "video": "16-cerebro",
+  "scene": 4,
+  "cand": "cer4",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "17-coala",
+  "scene": 0,
+  "cand": "coa0",
+  "i": 2,
+  "x": 0.5
+ },
+ {
+  "video": "17-coala",
+  "scene": 4,
+  "cand": "coa0",
+  "i": 1,
+  "x": 0.5
+ },
+ {
+  "video": "18-banana-radioativa",
+  "scene": 0,
+  "cand": "ban0",
+  "i": 1,
+  "x": 0.4
+ },
+ {
+  "video": "18-banana-radioativa",
+  "scene": 4,
+  "cand": "ban4",
+  "i": 0,
+  "x": 0.5
+ },
+ {
+  "video": "19-qrcode",
+  "scene": 0,
+  "cand": "qr4",
+  "i": 3,
+  "x": 0.5
+ },
+ {
+  "video": "19-qrcode",
+  "scene": 4,
+  "cand": "qr4",
+  "i": 2,
+  "x": 0.5
+ },
+ {
+  "video": "20-tardigrado",
+  "scene": 0,
+  "cand": "tar0",
+  "i": 0,
+  "x": 0.45
+ },
+ {
+  "video": "20-tardigrado",
+  "scene": 4,
+  "cand": "tar4",
+  "i": 3,
+  "x": 0.5
+ },
+ {
+  "video": "21-wombat",
+  "scene": 0,
+  "cand": "wom0",
+  "i": 0,
+  "x": 0.45
+ },
+ {
+  "video": "21-wombat",
+  "scene": 4,
+  "cand": "wom0",
+  "i": 1,
+  "x": 0.5
+ }
+]

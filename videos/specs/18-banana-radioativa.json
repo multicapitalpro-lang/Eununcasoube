@@ -1,0 +1,62 @@
+{
+ "lines": [
+  "A banana é levemente radioativa.",
+  "Ela tem potássio, e uma pequena parte desse potássio é uma versão naturalmente radioativa, o potássio quarenta.",
+  "Mas a quantidade é minúscula e o corpo mantém o potássio equilibrado, então não há motivo para susto.",
+  "Os cientistas até usam a banana como uma comparação didática para explicar doses muito pequenas de radiação.",
+  "Agora me diz: você come banana todo dia?"
+ ],
+ "scenes": [
+  {
+   "bg": "warm",
+   "big1": "LEVEMENTE",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🍌"
+   },
+   "kicker": "A BANANA É",
+   "big2": "RADIOATIVA",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "warm",
+   "big1": "E UM POUCO É",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧪"
+   },
+   "kicker": "Ela tem potássio,",
+   "big2": "NATURALMENTE RADIOATIVO."
+  },
+  {
+   "bg": "teal",
+   "big1": "SEM",
+   "viz": {
+    "type": "emoji",
+    "emoji": "😌"
+   },
+   "kicker": "A quantidade é minúscula:",
+   "big2": "SUSTO."
+  },
+  {
+   "bg": "blue",
+   "big1": "COMO COMPARAÇÃO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔬"
+   },
+   "kicker": "Cientistas usam a banana",
+   "big2": "DIDÁTICA."
+  },
+  {
+   "bg": "night",
+   "big1": "COME BANANA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🍌"
+   },
+   "big2": "TODO DIA? 🍌",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

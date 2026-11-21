@@ -1,0 +1,87 @@
+{
+ "lines": [
+  "Cleópatra viveu mais perto da chegada do homem à Lua do que da construção da Grande Pirâmide.",
+  "A Grande Pirâmide foi construída por volta de dois mil e quinhentos anos antes de Cristo.",
+  "Cleópatra morreu em trinta antes de Cristo, mais de dois mil anos depois.",
+  "E de Cleópatra até a chegada do homem à Lua, em mil novecentos e sessenta e nove, passaram cerca de dois mil anos.",
+  "Agora me diz: qual fato de história te deixou mais surpreso?"
+ ],
+ "scenes": [
+  {
+   "bg": "warm",
+   "big1": "MAIS PERTO DA LUA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🏺"
+   },
+   "kicker": "CLEÓPATRA VIVEU",
+   "big2": "QUE DA PIRÂMIDE",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "warm",
+   "big1": "POR VOLTA DE",
+   "viz": {
+    "type": "counter",
+    "emoji": "🏺",
+    "from": 0,
+    "to": 2500,
+    "suffix": "  a.C.",
+    "label": "Grande Pirâmide",
+    "d": 2.0
+   },
+   "kicker": "A Grande Pirâmide:",
+   "big2": "2.500 A.C."
+  },
+  {
+   "bg": "purple",
+   "big1": "CLEÓPATRA",
+   "viz": {
+    "type": "counter",
+    "emoji": "👑",
+    "from": 0,
+    "to": 30,
+    "suffix": "  a.C.",
+    "label": "morte de Cleópatra",
+    "d": 1.2
+   },
+   "kicker": "Mais de 2.000 anos depois,",
+   "big2": "MORRE."
+  },
+  {
+   "bg": "night",
+   "big1": "A PIRÂMIDE",
+   "viz": {
+    "type": "bars",
+    "max": 2500,
+    "items": [
+     {
+      "name": "Pirâmide",
+      "val": 2500,
+      "suffix": " anos",
+      "at": 0.4
+     },
+     {
+      "name": "Lua",
+      "val": 2000,
+      "suffix": " anos",
+      "color": "#ff7a1a",
+      "at": 1.4
+     }
+    ]
+   },
+   "kicker": "Distância de Cleópatra até:",
+   "big2": "E A LUA"
+  },
+  {
+   "bg": "night",
+   "big1": "QUAL FATO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌙"
+   },
+   "big2": "TE ESPANTOU? 🤯",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

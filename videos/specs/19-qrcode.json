@@ -1,0 +1,62 @@
+{
+ "lines": [
+  "Por que o QR code tem três quadrados nos cantos?",
+  "Eles servem de marcadores para o leitor achar o código na imagem.",
+  "E como são só três, e não quatro, o celular descobre qual é o lado de cima, mesmo com o código torto.",
+  "O QR code foi criado em mil novecentos e noventa e quatro, no Japão, para etiquetar peças de carros.",
+  "Agora me diz: quantos QR codes você já leu hoje?"
+ ],
+ "scenes": [
+  {
+   "bg": "blue",
+   "big1": "TEM 3 QUADRADOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📱"
+   },
+   "kicker": "POR QUE O QR CODE",
+   "big2": "NOS CANTOS?",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "blue",
+   "big1": "MARCADORES",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📍"
+   },
+   "kicker": "Eles servem de",
+   "big2": "PARA O LEITOR."
+  },
+  {
+   "bg": "teal",
+   "big1": "O CELULAR ACHA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔄"
+   },
+   "kicker": "São só três, não quatro:",
+   "big2": "O LADO DE CIMA."
+  },
+  {
+   "bg": "warm",
+   "big1": "NO JAPÃO,",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🚗"
+   },
+   "kicker": "Criado em 1994,",
+   "big2": "PARA PEÇAS DE CARRO."
+  },
+  {
+   "bg": "night",
+   "big1": "QUANTOS QR",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📱"
+   },
+   "big2": "LEU HOJE? 📱",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

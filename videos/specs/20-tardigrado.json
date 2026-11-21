@@ -1,0 +1,67 @@
+{
+ "lines": [
+  "Existe um bichinho minúsculo que já sobreviveu ao vácuo do espaço.",
+  "É o tardígrado, também chamado de urso-d'água.",
+  "Em dois mil e sete, tardígrados passaram cerca de dez dias em órbita, expostos ao vácuo, e muitos voltaram à vida.",
+  "Já a radiação ultravioleta do Sol foi bem mais perigosa: poucos sobreviveram quando receberam as duas coisas.",
+  "Agora me diz: você conhecia esse bichinho?"
+ ],
+ "scenes": [
+  {
+   "bg": "night",
+   "big1": "SOBREVIVEU",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🚀"
+   },
+   "kicker": "UM BICHINHO",
+   "big2": "AO ESPAÇO",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "CHAMADO DE",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔬"
+   },
+   "kicker": "O tardígrado,",
+   "big2": "URSO-D'ÁGUA."
+  },
+  {
+   "bg": "night",
+   "big1": "MUITOS",
+   "viz": {
+    "type": "counter",
+    "emoji": "🚀",
+    "from": 0,
+    "to": 10,
+    "suffix": "  dias",
+    "label": "no vácuo, em órbita",
+    "d": 1.6
+   },
+   "kicker": "Em 2007, em órbita,",
+   "big2": "VOLTARAM À VIDA."
+  },
+  {
+   "bg": "warm",
+   "big1": "FOI MUITO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌞"
+   },
+   "kicker": "A radiação ultravioleta",
+   "big2": "MAIS PERIGOSA."
+  },
+  {
+   "bg": "night",
+   "big1": "VOCÊ O",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔬"
+   },
+   "big2": "CONHECIA? 🔬",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

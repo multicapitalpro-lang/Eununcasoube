@@ -1,0 +1,62 @@
+{
+ "lines": [
+  "O wombat faz cocô em formato de cubo.",
+  "Um estudo mostrou que o final do intestino dele estica de forma desigual, com partes mais rígidas e partes mais elásticas.",
+  "Os pesquisadores acham que isso ajuda a moldar os cantos enquanto o material vai sendo comprimido.",
+  "A explicação veio da análise de poucos animais, e os cientistas ainda querem testá-la melhor.",
+  "Agora me diz: qual animal você acha mais curioso?"
+ ],
+ "scenes": [
+  {
+   "bg": "warm",
+   "big1": "COCÔ EM",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧊"
+   },
+   "kicker": "O WOMBAT FAZ",
+   "big2": "FORMATO DE CUBO",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "FORMA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔬"
+   },
+   "kicker": "O intestino estica de",
+   "big2": "DESIGUAL."
+  },
+  {
+   "bg": "purple",
+   "big1": "CANTOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧊"
+   },
+   "kicker": "Isso ajuda a moldar os",
+   "big2": "DO CUBO."
+  },
+  {
+   "bg": "night",
+   "big1": "POUCOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧪"
+   },
+   "kicker": "A explicação veio de",
+   "big2": "ANIMAIS."
+  },
+  {
+   "bg": "night",
+   "big1": "QUAL ANIMAL",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🐨"
+   },
+   "big2": "É CURIOSO? 🤔",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

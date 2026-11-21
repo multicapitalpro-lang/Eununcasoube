@@ -1,0 +1,66 @@
+{
+ "lines": [
+  "A luz do Sol que bate em você agora saiu de lá há uns oito minutos.",
+  "O Sol está a cerca de cento e cinquenta milhões de quilômetros daqui, e a luz leva em média oito minutos e vinte segundos para fazer essa viagem.",
+  "Ou seja, se o Sol sumisse de repente, você continuaria vendo ele no céu por cerca de oito minutos.",
+  "Quando você olha para ele, está vendo o Sol como ele era alguns minutos atrás.",
+  "Agora me diz: você já sabia disso?"
+ ],
+ "scenes": [
+  {
+   "bg": "blue",
+   "big1": "SAIU DE LÁ",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌞"
+   },
+   "kicker": "A LUZ DO SOL",
+   "big2": "HÁ 8 MINUTOS",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "warm",
+   "big1": "8 MIN 20 S",
+   "viz": {
+    "type": "counter",
+    "emoji": "🌞",
+    "from": 0,
+    "to": 8,
+    "suffix": "  min",
+    "label": "de viagem da luz",
+    "d": 1.8
+   },
+   "kicker": "Ela viaja em média"
+  },
+  {
+   "bg": "purple",
+   "big1": "SEGUIRÍAMOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌞"
+   },
+   "kicker": "Se o Sol sumisse,",
+   "big2": "VENDO-O."
+  },
+  {
+   "bg": "night",
+   "big1": "ELE ERA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "⏳"
+   },
+   "kicker": "Você vê o Sol como",
+   "big2": "HÁ MINUTOS."
+  },
+  {
+   "bg": "night",
+   "big1": "VOCÊ JÁ",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌅"
+   },
+   "big2": "SABIA? 🌅",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

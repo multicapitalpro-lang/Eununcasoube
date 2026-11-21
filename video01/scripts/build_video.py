@@ -37,6 +37,10 @@ for i, sc in enumerate(SPEC["scenes"]):
         sizes = ((178, 64), (250, 132), (396, 150 if w2 <= 10 else 112))
     elif last: sizes = ((196, 54), (196, 132), (340, 120))
     else: sizes = ((200, 58), (290, 118), (410, 118))
+    def fit(text, size):
+        n = len(_re.sub(r"[^\w ?$,.%]", "", text)) + 2*len(_re.findall(r"[^\w\s?$,.%]", text))
+        return min(size, int(990/(max(n,1)*0.60)))
+    sizes = tuple((y, fit(t, sz) if k_ else sz) for k_, (y, sz), t in zip((0,1,1), sizes, (k, b1, b2)))
     parts = ""
     if k: parts += f'<div class="t small" style="top:{sizes[0][0]}px;font-size:{sizes[0][1]}px">{ch(k,f"c{i}")}</div>'
     parts += f'<div class="t big" style="top:{sizes[1][0]}px;font-size:{sizes[1][1]}px">{ch(b1,f"c{i}")}</div>'

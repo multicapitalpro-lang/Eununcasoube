@@ -1,0 +1,62 @@
+{
+ "lines": [
+  "A primeira webcam do mundo foi criada para vigiar uma cafeteira.",
+  "Em mil novecentos e noventa e um, cientistas da Universidade de Cambridge estavam cansados de ir até a cafeteira e encontrá-la vazia.",
+  "Então ligaram uma câmera a um computador, e todos puderam ver pela tela se havia café.",
+  "Anos depois, a imagem foi parar na internet, e a cafeteira virou uma das primeiras atrações da web.",
+  "Agora me diz: qual invenção curiosa você conhece?"
+ ],
+ "scenes": [
+  {
+   "bg": "warm",
+   "big1": "VIGIAVA UMA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📷"
+   },
+   "kicker": "A 1ª WEBCAM DO MUNDO",
+   "big2": "CAFETEIRA ☕",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "warm",
+   "big1": "CIENTISTAS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "☕"
+   },
+   "kicker": "Cambridge, 1991:",
+   "big2": "SEM CAFÉ."
+  },
+  {
+   "bg": "teal",
+   "big1": "A UM",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📷"
+   },
+   "kicker": "Uma câmera ligada",
+   "big2": "COMPUTADOR."
+  },
+  {
+   "bg": "blue",
+   "big1": "VIROU ATRAÇÃO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌐"
+   },
+   "kicker": "Anos depois, a imagem",
+   "big2": "DA WEB."
+  },
+  {
+   "bg": "night",
+   "big1": "QUE INVENÇÃO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "💡"
+   },
+   "big2": "CURIOSA? 🤔",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

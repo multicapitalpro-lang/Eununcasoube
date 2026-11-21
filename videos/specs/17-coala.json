@@ -1,0 +1,62 @@
+{
+ "lines": [
+  "O coala tem digitais quase iguais às nossas.",
+  "Os coalas são um dos poucos animais fora do grupo dos primatas que têm digitais.",
+  "Mesmo ao microscópio, é difícil distinguir as marcas deles das de uma pessoa.",
+  "Elas provavelmente ajudam a segurar os galhos e as folhas de eucalipto com firmeza.",
+  "Agora me diz: qual animal você acha mais parecido com a gente?"
+ ],
+ "scenes": [
+  {
+   "bg": "teal",
+   "big1": "DIGITAIS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🐨"
+   },
+   "kicker": "O COALA TEM",
+   "big2": "PARECIDAS COM AS NOSSAS",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "UM DOS POUCOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🐨"
+   },
+   "kicker": "Fora dos primatas,",
+   "big2": "COM DIGITAIS."
+  },
+  {
+   "bg": "purple",
+   "big1": "DIFÍCIL DE",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔬"
+   },
+   "kicker": "Ao microscópio,",
+   "big2": "DISTINGUIR."
+  },
+  {
+   "bg": "warm",
+   "big1": "SEGURAR",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌿"
+   },
+   "kicker": "Elas provavelmente ajudam a",
+   "big2": "OS GALHOS."
+  },
+  {
+   "bg": "night",
+   "big1": "QUAL ANIMAL",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🐨"
+   },
+   "big2": "É PARECIDO? 🤔",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

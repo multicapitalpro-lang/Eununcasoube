@@ -1,0 +1,88 @@
+{
+ "lines": [
+  "Em Vênus, um dia dura mais que um ano.",
+  "Vênus leva cerca de duzentos e vinte e cinco dias terrestres para dar uma volta em torno do Sol.",
+  "Mas ela gira tão devagar em torno de si mesma que uma rotação completa leva cerca de duzentos e quarenta e três dias.",
+  "O resultado é que o ano de Vênus termina antes de ela completar uma volta sobre o próprio eixo.",
+  "Agora me diz: qual planeta você gostaria de visitar?"
+ ],
+ "scenes": [
+  {
+   "bg": "purple",
+   "big1": "DURA MAIS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🪐"
+   },
+   "kicker": "EM VÊNUS, UM DIA",
+   "big2": "QUE UM ANO",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "warm",
+   "big1": "225 DIAS",
+   "viz": {
+    "type": "counter",
+    "emoji": "🔄",
+    "from": 0,
+    "to": 225,
+    "suffix": "  dias",
+    "label": "um ano em Vênus",
+    "d": 2.0
+   },
+   "kicker": "Uma volta no Sol:",
+   "big2": "TERRESTRES."
+  },
+  {
+   "bg": "warm",
+   "big1": "243 DIAS",
+   "viz": {
+    "type": "counter",
+    "emoji": "🔄",
+    "from": 0,
+    "to": 243,
+    "suffix": "  dias",
+    "label": "uma rotação completa",
+    "d": 2.0,
+    "hot": true
+   },
+   "kicker": "Uma volta em si mesma:",
+   "big2": "TERRESTRES."
+  },
+  {
+   "bg": "night",
+   "big1": "O ANO ACABA",
+   "viz": {
+    "type": "bars",
+    "max": 243,
+    "items": [
+     {
+      "name": "Ano",
+      "val": 225,
+      "suffix": " d",
+      "at": 0.4
+     },
+     {
+      "name": "Rotação",
+      "val": 243,
+      "suffix": " d",
+      "color": "#ff7a1a",
+      "at": 1.2
+     }
+    ]
+   },
+   "kicker": "Resultado:",
+   "big2": "ANTES DO DIA."
+  },
+  {
+   "bg": "night",
+   "big1": "QUAL PLANETA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🚀"
+   },
+   "big2": "VISITAR? 🚀",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}
