@@ -1,0 +1,101 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+:root{--ice:#eaf1fb;--silver:#aab7ca;--acc:#ff7a1a;--font:"Nunito",sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0d1220}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:var(--font);color:var(--ice)}
+.bg{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.ring{position:absolute;border:3px solid rgba(234,241,251,.12);border-radius:50%}
+.ch{display:inline-block}.t{position:absolute;left:0;width:1080px;text-align:center;line-height:1.05}
+.small{font-weight:600;color:var(--ice)}.big{font-weight:900;letter-spacing:-2px;color:var(--ice)}.acc{color:var(--acc)}
+.sub{position:absolute;left:60px;width:960px;top:1176px;text-align:center;font-weight:800;font-size:60px;line-height:1.1;color:#fff;
+ text-shadow:3px 0 0 #0d1220,-3px 0 0 #0d1220,0 3px 0 #0d1220,0 -3px 0 #0d1220,2px 2px 0 #0d1220,-2px -2px 0 #0d1220,2px -2px 0 #0d1220,-2px 2px 0 #0d1220}
+.vem{position:absolute;left:0;width:1080px;text-align:center;font-size:300px;line-height:1.1}
+.vnum{position:absolute;left:0;width:1080px;text-align:center;font-weight:900;font-size:230px;line-height:1;color:var(--ice)}
+.vlab{position:absolute;left:0;width:1080px;text-align:center;font-weight:700;font-size:50px;color:var(--silver)}
+.vbar{position:absolute;border-radius:24px 24px 0 0}
+.vval{position:absolute;text-align:center;font-weight:900;font-size:56px;line-height:1.1;white-space:nowrap}
+.vring{position:absolute;left:440px;top:800px;width:200px;height:200px;border:10px solid var(--acc);border-radius:50%;opacity:0}
+.vprice{position:absolute;left:0;width:1080px;text-align:center;font-weight:900;line-height:1;color:var(--ice)}
+.vring2{position:absolute;left:472px;top:770px;width:150px;height:250px;border:10px solid var(--acc);border-radius:50%;opacity:0}
+.vcirc{position:absolute;border-radius:50%}
+#comm{top:1262px;font-weight:700;font-size:50px;color:var(--ice)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="27.071" data-width="1080" data-height="1920">
+<div id="back" class="clip" data-start="0" data-duration="27.071" data-track-index="0" style="position:absolute;inset:0">
+<div id="bg0" class="bg" style="opacity:1;background:radial-gradient(ellipse 800px 900px at 540px 780px,#2a5560 0%,#16303a 55%,#0c1a22 100%)"></div><div id="bg1" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#33476f 0%,#1a2540 55%,#0f1628 100%)"></div><div id="bg2" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#2a5560 0%,#16303a 55%,#0c1a22 100%)"></div><div id="bg3" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#27386a 0%,#131b3a 55%,#0a0f22 100%)"></div><div id="bg4" class="bg" style="opacity:0;background:radial-gradient(ellipse 800px 900px at 540px 780px,#27386a 0%,#131b3a 55%,#0a0f22 100%)"></div>
+<div class="ring" id="r1" style="left:-120px;top:240px;width:380px;height:380px"></div><div class="ring" id="r2" style="left:820px;top:980px;width:300px;height:300px"></div>
+<div class="ring" id="r3" style="left:760px;top:120px;width:200px;height:200px"></div><div class="ring" id="r4" style="left:-60px;top:1000px;width:240px;height:240px"></div>
+</div>
+<video id="mv0" class="clip" data-start="0.0" data-duration="3.912" data-track-index="1" muted playsinline src="assets/clip-s0.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video><div id="ms0" class="clip" data-start="0.0" data-duration="3.912" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,32,.80) 0%,rgba(13,18,32,.46) 42%,rgba(13,18,32,.82) 100%)"></div>
+<video id="mv2" class="clip" data-start="10.163" data-duration="7.367" data-track-index="1" muted playsinline src="assets/clip-s2.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video><div id="ms2" class="clip" data-start="10.163" data-duration="7.367" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,32,.80) 0%,rgba(13,18,32,.46) 42%,rgba(13,18,32,.82) 100%)"></div>
+<video id="mv4" class="clip" data-start="22.964" data-duration="4.107" data-track-index="1" muted playsinline src="assets/clip-s4.mp4" style="position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover"></video><div id="ms4" class="clip" data-start="22.964" data-duration="4.107" data-track-index="2" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,32,.80) 0%,rgba(13,18,32,.46) 42%,rgba(13,18,32,.82) 100%)"></div>
+<div class="clip scn" id="s0" data-start="0.0" data-duration="3.912" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:178px;font-size:64px"><span class="ch c0">O</span><span class="ch c0">&nbsp;</span><span class="ch c0">P</span><span class="ch c0">O</span><span class="ch c0">L</span><span class="ch c0">V</span><span class="ch c0">O</span><span class="ch c0">&nbsp;</span><span class="ch c0">T</span><span class="ch c0">E</span><span class="ch c0">M</span></div><div class="t big" style="top:250px;font-size:132px"><span class="ch c0">3</span><span class="ch c0">&nbsp;</span><span class="ch c0">C</span><span class="ch c0">O</span><span class="ch c0">R</span><span class="ch c0">A</span><span class="ch c0">Ç</span><span class="ch c0">Õ</span><span class="ch c0">E</span><span class="ch c0">S</span></div><div class="t big acc" style="top:396px;font-size:112px"><span class="ch c0">S</span><span class="ch c0">A</span><span class="ch c0">N</span><span class="ch c0">G</span><span class="ch c0">U</span><span class="ch c0">E</span><span class="ch c0">&nbsp;</span><span class="ch c0">A</span><span class="ch c0">Z</span><span class="ch c0">U</span><span class="ch c0">L</span></div></div>
+<div class="clip scn" id="s1" data-start="3.912" data-duration="6.251" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:200px;font-size:58px"><span class="ch c1">D</span><span class="ch c1">o</span><span class="ch c1">i</span><span class="ch c1">s</span><span class="ch c1">&nbsp;</span><span class="ch c1">v</span><span class="ch c1">ã</span><span class="ch c1">o</span><span class="ch c1">&nbsp;</span><span class="ch c1">à</span><span class="ch c1">s</span><span class="ch c1">&nbsp;</span><span class="ch c1">b</span><span class="ch c1">r</span><span class="ch c1">â</span><span class="ch c1">n</span><span class="ch c1">q</span><span class="ch c1">u</span><span class="ch c1">i</span><span class="ch c1">a</span><span class="ch c1">s</span><span class="ch c1">,</span></div><div class="t big" style="top:290px;font-size:118px"><span class="ch c1">U</span><span class="ch c1">M</span><span class="ch c1">&nbsp;</span><span class="ch c1">A</span><span class="ch c1">O</span></div><div class="t big acc" style="top:410px;font-size:118px"><span class="ch c1">C</span><span class="ch c1">O</span><span class="ch c1">R</span><span class="ch c1">P</span><span class="ch c1">O</span><span class="ch c1">.</span></div><div id="v1e" class="vem" style="top:600px;font-size:170px">💙</div><div id="v1n" class="vnum" style="top:790px">0</div><div class="vlab" style="top:1030px">corações</div></div>
+<div class="clip scn" id="s2" data-start="10.163" data-duration="7.367" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:200px;font-size:58px"><span class="ch c2">O</span><span class="ch c2">&nbsp;</span><span class="ch c2">a</span><span class="ch c2">z</span><span class="ch c2">u</span><span class="ch c2">l</span><span class="ch c2">&nbsp;</span><span class="ch c2">v</span><span class="ch c2">e</span><span class="ch c2">m</span><span class="ch c2">&nbsp;</span><span class="ch c2">d</span><span class="ch c2">a</span></div><div class="t big" style="top:290px;font-size:118px"><span class="ch c2">H</span><span class="ch c2">E</span><span class="ch c2">M</span><span class="ch c2">O</span><span class="ch c2">C</span><span class="ch c2">I</span><span class="ch c2">A</span><span class="ch c2">N</span><span class="ch c2">I</span><span class="ch c2">N</span><span class="ch c2">A</span></div><div class="t big acc" style="top:410px;font-size:118px"><span class="ch c2">C</span><span class="ch c2">O</span><span class="ch c2">M</span><span class="ch c2">&nbsp;</span><span class="ch c2">C</span><span class="ch c2">O</span><span class="ch c2">B</span><span class="ch c2">R</span><span class="ch c2">E</span><span class="ch c2">.</span></div></div>
+<div class="clip scn" id="s3" data-start="17.529999999999998" data-duration="5.434" data-track-index="4" style="position:absolute;inset:0"><div class="t small" style="top:200px;font-size:58px"><span class="ch c3">N</span><span class="ch c3">a</span><span class="ch c3">d</span><span class="ch c3">a</span><span class="ch c3">n</span><span class="ch c3">d</span><span class="ch c3">o</span><span class="ch c3">&nbsp;</span><span class="ch c3">e</span><span class="ch c3">m</span><span class="ch c3">&nbsp;</span><span class="ch c3">j</span><span class="ch c3">a</span><span class="ch c3">t</span><span class="ch c3">o</span><span class="ch c3">,</span></div><div class="t big" style="top:290px;font-size:118px"><span class="ch c3">O</span><span class="ch c3">&nbsp;</span><span class="ch c3">C</span><span class="ch c3">O</span><span class="ch c3">R</span><span class="ch c3">A</span><span class="ch c3">Ç</span><span class="ch c3">Ã</span><span class="ch c3">O</span></div><div class="t big acc" style="top:410px;font-size:118px"><span class="ch c3">P</span><span class="ch c3">O</span><span class="ch c3">D</span><span class="ch c3">E</span><span class="ch c3">&nbsp;</span><span class="ch c3">P</span><span class="ch c3">A</span><span class="ch c3">R</span><span class="ch c3">A</span><span class="ch c3">R</span><span class="ch c3">.</span></div><div id="v3e" class="vem" style="top:620px">🌊</div></div>
+<div class="clip scn" id="s4" data-start="22.964" data-duration="4.107" data-track-index="4" style="position:absolute;inset:0"><div class="t big" style="top:196px;font-size:132px"><span class="ch c4">Q</span><span class="ch c4">U</span><span class="ch c4">A</span><span class="ch c4">L</span><span class="ch c4">&nbsp;</span><span class="ch c4">É</span><span class="ch c4">&nbsp;</span><span class="ch c4">O</span><span class="ch c4">&nbsp;</span><span class="ch c4">M</span><span class="ch c4">A</span><span class="ch c4">I</span><span class="ch c4">S</span></div><div class="t big acc" style="top:340px;font-size:120px"><span class="ch c4">E</span><span class="ch c4">S</span><span class="ch c4">T</span><span class="ch c4">R</span><span class="ch c4">A</span><span class="ch c4">N</span><span class="ch c4">H</span><span class="ch c4">O</span><span class="ch c4">?</span><span class="ch c4">&nbsp;</span><span class="ch c4">🤔</span></div><div class="t" id="comm">👇 Responde nos comentários.</div></div>
+<div class="clip sub" id="sub0" data-start="0.35" data-duration="1.837" data-track-index="9">O polvo tem três corações.</div>
+<div class="clip sub" id="sub1" data-start="2.187" data-duration="1.875" data-track-index="9">E o sangue dele é azul.</div>
+<div class="clip sub" id="sub2" data-start="4.032" data-duration="1.836" data-track-index="9">Dois corações levam o sangue</div>
+<div class="clip sub" id="sub3" data-start="5.868" data-duration="0.852" data-track-index="9">às brânquias,</div>
+<div class="clip sub" id="sub4" data-start="6.72" data-duration="0.852" data-track-index="9">e o terceiro,</div>
+<div class="clip sub" id="sub5" data-start="7.572" data-duration="1.901" data-track-index="9">maior, leva o sangue ao resto</div>
+<div class="clip sub" id="sub6" data-start="9.473" data-duration="0.84" data-track-index="9">do corpo.</div>
+<div class="clip sub" id="sub7" data-start="10.283" data-duration="2.02" data-track-index="9">O azul vem da hemocianina,</div>
+<div class="clip sub" id="sub8" data-start="12.303" data-duration="1.787" data-track-index="9">uma proteína com cobre,</div>
+<div class="clip sub" id="sub9" data-start="14.09" data-duration="2.175" data-track-index="9">adaptada a águas frias e com</div>
+<div class="clip sub" id="sub10" data-start="16.265" data-duration="1.415" data-track-index="9">pouco oxigênio.</div>
+<div class="clip sub" id="sub11" data-start="17.65" data-duration="1.653" data-track-index="9">E tem mais: quando o polvo</div>
+<div class="clip sub" id="sub12" data-start="19.303" data-duration="0.827" data-track-index="9">nada em jato,</div>
+<div class="clip sub" id="sub13" data-start="20.13" data-duration="1.844" data-track-index="9">o coração do corpo pode parar</div>
+<div class="clip sub" id="sub14" data-start="21.974" data-duration="1.14" data-track-index="9">por instantes.</div>
+<div class="clip sub" id="sub15" data-start="23.084" data-duration="0.782" data-track-index="9">Agora me diz:</div>
+<div class="clip sub" id="sub16" data-start="23.866" data-duration="1.564" data-track-index="9">qual animal você acha mais</div>
+<div class="clip sub" id="sub17" data-start="25.43" data-duration="0.791" data-track-index="9">estranho?</div>
+<audio id="aud" src="assets/mix.wav" data-start="0" data-duration="27.071" data-track-index="10" data-volume="1"></audio>
+</div>
+<script>
+const tl = gsap.timeline({paused:true});
+const S = [0.0, 3.912, 10.163, 17.529999999999998, 22.964, 27.071], TOT = 27.071; const E="power3.out", SP="back.out(1.8)";
+const fmt = v => Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,".");
+function chars(sel,t,st){ tl.fromTo(sel,{y:60,opacity:0,scale:.7},{y:0,opacity:1,scale:1,duration:.45,ease:SP,stagger:st},t); }
+function out(sel,t){ tl.to(sel,{y:-70,opacity:0,duration:.2,ease:"power2.in"},t); }
+tl.to("#r1",{y:-260,rotation:90,duration:TOT,ease:"none"},0).to("#r2",{y:-300,duration:TOT,ease:"none"},0).to("#r3",{y:200,x:-80,duration:TOT,ease:"none"},0).to("#r4",{y:-220,x:120,duration:TOT,ease:"none"},0);
+tl.to("#bg1",{opacity:1,duration:.35,ease:"none"},S[1]);tl.to("#bg2",{opacity:1,duration:.35,ease:"none"},S[2]);tl.to("#bg3",{opacity:1,duration:.35,ease:"none"},S[3]);tl.to("#bg4",{opacity:1,duration:.35,ease:"none"},S[4]);
+tl.fromTo(".c0",{opacity:1,y:0,scale:1},{opacity:1,y:0,scale:1,duration:.01},0);
+out(".c0",S[1]-.22);
+
+chars(".c1",S[1]+.08,.03);
+out(".c1",S[2]-.22);
+tl.fromTo("#v1e",{scale:.3,opacity:0},{scale:1,opacity:1,duration:.6,ease:SP},S[1]+.15);const o1={v:0};tl.to(o1,{v:3,duration:1.2,ease:"power2.inOut",onUpdate:()=>{document.getElementById("v1n").textContent=fmt(o1.v)+""}},S[1]+.6);
+chars(".c2",S[2]+.08,.03);
+out(".c2",S[3]-.22);
+
+chars(".c3",S[3]+.08,.03);
+out(".c3",S[4]-.22);
+tl.fromTo("#v3e",{scale:.3,opacity:0},{scale:1,opacity:1,duration:.6,ease:SP},S[3]+.2);tl.to("#v3e",{scale:1.12,duration:.5,yoyo:true,repeat:5,ease:"sine.inOut"},S[3]+.9);
+chars(".c4",S[4]+.08,.03);
+
+tl.fromTo("#comm",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:E},S[4]+2.4);
+tl.fromTo("#sub0",{scale:.92},{scale:1,duration:.18,ease:E},0.35);
+tl.fromTo("#sub1",{scale:.92},{scale:1,duration:.18,ease:E},2.187);
+tl.fromTo("#sub2",{scale:.92},{scale:1,duration:.18,ease:E},4.032);
+tl.fromTo("#sub3",{scale:.92},{scale:1,duration:.18,ease:E},5.868);
+tl.fromTo("#sub4",{scale:.92},{scale:1,duration:.18,ease:E},6.72);
+tl.fromTo("#sub5",{scale:.92},{scale:1,duration:.18,ease:E},7.572);
+tl.fromTo("#sub6",{scale:.92},{scale:1,duration:.18,ease:E},9.473);
+tl.fromTo("#sub7",{scale:.92},{scale:1,duration:.18,ease:E},10.283);
+tl.fromTo("#sub8",{scale:.92},{scale:1,duration:.18,ease:E},12.303);
+tl.fromTo("#sub9",{scale:.92},{scale:1,duration:.18,ease:E},14.09);
+tl.fromTo("#sub10",{scale:.92},{scale:1,duration:.18,ease:E},16.265);
+tl.fromTo("#sub11",{scale:.92},{scale:1,duration:.18,ease:E},17.65);
+tl.fromTo("#sub12",{scale:.92},{scale:1,duration:.18,ease:E},19.303);
+tl.fromTo("#sub13",{scale:.92},{scale:1,duration:.18,ease:E},20.13);
+tl.fromTo("#sub14",{scale:.92},{scale:1,duration:.18,ease:E},21.974);
+tl.fromTo("#sub15",{scale:.92},{scale:1,duration:.18,ease:E},23.084);
+tl.fromTo("#sub16",{scale:.92},{scale:1,duration:.18,ease:E},23.866);
+tl.fromTo("#sub17",{scale:.92},{scale:1,duration:.18,ease:E},25.43);
+window.__timelines["main"] = tl;
+</script></body></html>

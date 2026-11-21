@@ -15,7 +15,8 @@
     "emoji": "🔥"
    },
    "kicker": "A TORRE EIFFEL",
-   "big2": "TAMANHO?"
+   "big2": "TAMANHO?",
+   "clip": "assets/clip-s0.mp4"
   },
   {
    "bg": "warm",
@@ -44,8 +45,7 @@
     "emoji": "🌞"
    },
    "kicker": "O lado do sol dilata mais:",
-   "big2": "SE DESLOCA.",
-   "clip": "assets/clip-s3.mp4"
+   "big2": "SE DESLOCA."
   },
   {
    "bg": "night",

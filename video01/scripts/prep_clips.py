@@ -7,8 +7,8 @@ for p in picks:
     T = json.load(open(f"{root}/{v}/proj/assets/times.json"))["lines"]; N = len(T)
     S = [0.0] + [T[i][0]-0.12 for i in range(1, N)] + [json.load(open(f"{root}/{v}/proj/assets/times.json"))["total"]]
     slot = S[sc+1]-S[sc]
-    q = "large" if h["wh"].get("large", (9999,))[0] <= 2200 else "medium"
-    if q not in h["v"]: q = "medium" if "medium" in h["v"] else "small"
+    ok = [n for n in ("large", "medium", "small", "tiny") if n in h["v"] and h["wh"][n][0] > 0]
+    q = next((n for n in ok if h["wh"][n][0] <= 2200), ok[-1])
     src = f"/tmp/pxdl_{h['id']}.mp4"
     if not os.path.exists(src): subprocess.run(["curl", "-s", "-m", "180", "-o", src, h["v"][q]], check=True)
     w, hh = h["wh"][q]
