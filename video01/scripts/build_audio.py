@@ -4,7 +4,8 @@ Saída: vo.wav, mix.wav (voz+trilha+sfx) e times.json (início/fim de cada fala)
 import sys, json, numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
 M, OUT = sys.argv[1], sys.argv[2]
-SPEC = sys.argv[3] if len(sys.argv) > 3 else None
+SPEC = sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] != "-" else None
+VOICE = sys.argv[4] if len(sys.argv) > 4 else None  # pasta com 0.wav, 1.wav... (ex.: Chatterbox)
 SR = 24000
 LINES = [
  "Você provavelmente está usando seu celular de um jeito que pode estar acabando com a bateria mais rápido.",
@@ -13,12 +14,16 @@ LINES = [
  "Por isso, deixar o celular carregando em um lugar muito quente, como dentro do carro no sol, pode ser uma péssima ideia.",
  "Agora me diz: você costuma deixar o celular carregando a noite inteira?"]
 if SPEC: LINES = json.load(open(SPEC))["lines"]
-k = Kokoro(f"{M}/kokoro-v1.0.onnx", f"{M}/voices-v1.0.bin")
+k = None if VOICE else Kokoro(f"{M}/kokoro-v1.0.onnx", f"{M}/voices-v1.0.bin")
 LEAD, GAP, TAIL = 0.35, 0.22, 1.1
 segs, times, t = [], [], LEAD
-for l in LINES:
-    s, sr = k.create(l, voice="pf_dora", speed=1.2, lang="pt-br")
-    s = s.astype(np.float32)
+for n_, l in enumerate(LINES):
+    if VOICE:
+        s, sr = sf.read(f"{VOICE}/{n_}.wav"); s = (s if s.ndim == 1 else s.mean(1)).astype(np.float32)
+        assert sr == SR, sr
+    else:
+        s, sr = k.create(l, voice="pf_dora", speed=1.2, lang="pt-br")
+        s = s.astype(np.float32)
     # corta silêncio das pontas
     idx = np.where(np.abs(s) > 0.01)[0]; s = s[idx[0]:idx[-1] + 1]
     times.append([round(t, 3), round(t + len(s) / SR, 3)]); segs.append((t, s)); t += len(s) / SR + GAP
