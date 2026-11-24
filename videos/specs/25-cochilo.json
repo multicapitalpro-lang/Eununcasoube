@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "O cochilo mais eficiente costuma ser o curto.",
+  "Estudos sobre cochilos mostram que de dez a vinte minutos já podem melhorar a disposição.",
+  "Já os cochilos longos podem deixar a pessoa tonta ao acordar, um efeito chamado inércia do sono.",
+  "E cochilar muito tarde pode atrapalhar o sono da noite.",
+  "Agora me diz: você é do time do cochilo?"
+ ],
+ "scenes": [
+  {
+   "bg": "warm",
+   "big1": "COCHILO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "😴"
+   },
+   "kicker": "O MELHOR É O",
+   "big2": "CURTO",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "10 A 20",
+   "viz": {
+    "type": "emoji",
+    "emoji": "⏱️"
+   },
+   "kicker": "Minutos já podem",
+   "big2": "AJUDAR"
+  },
+  {
+   "bg": "purple",
+   "big1": "COCHILO LONGO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🥴"
+   },
+   "kicker": "Pode deixar a",
+   "big2": "PESSOA TONTA"
+  },
+  {
+   "bg": "night",
+   "big1": "TARDE DEMAIS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌆"
+   },
+   "kicker": "Atrapalha o sono da",
+   "big2": "NOITE"
+  },
+  {
+   "bg": "night",
+   "big1": "COCHILA?",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🛋️"
+   },
+   "kicker": "Você é do time do",
+   "big2": "COCHILO?",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

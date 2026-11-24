@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "O seu sono não é uma coisa só: ele acontece em ciclos.",
+  "Em média, cada ciclo dura cerca de noventa minutos, passando por sono leve, profundo e REM.",
+  "Em uma noite, a pessoa passa por vários ciclos, e a duração varia de pessoa para pessoa.",
+  "Acordar no meio de um sono profundo pode deixar a pessoa mais grogue.",
+  "Agora me diz: você acorda com facilidade ou precisa de vários despertadores?"
+ ],
+ "scenes": [
+  {
+   "bg": "night",
+   "big1": "SEU SONO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔄"
+   },
+   "kicker": "ACONTECE EM",
+   "big2": "CICLOS",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "90 MIN",
+   "viz": {
+    "type": "emoji",
+    "emoji": "⏱️"
+   },
+   "kicker": "Em média, cada ciclo dura",
+   "big2": "CERCA DE 90"
+  },
+  {
+   "bg": "purple",
+   "big1": "VÁRIOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔁"
+   },
+   "kicker": "Ciclos por noite",
+   "big2": "VARIA POR PESSOA"
+  },
+  {
+   "bg": "warm",
+   "big1": "SONO PROFUNDO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🥴"
+   },
+   "kicker": "Acordar nele dá",
+   "big2": "GROGUE"
+  },
+  {
+   "bg": "night",
+   "big1": "DESPERTADORES?",
+   "viz": {
+    "type": "emoji",
+    "emoji": "⏰"
+   },
+   "kicker": "Você precisa de",
+   "big2": "QUANTOS?",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

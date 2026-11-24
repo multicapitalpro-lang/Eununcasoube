@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "A maioria dos adultos precisa de sete horas de sono ou mais.",
+  "Essa é a recomendação de organizações de saúde do sono, que apontam de sete a nove horas por noite para a maioria dos adultos.",
+  "Dormir bem menos que isso, de forma repetida, está ligado a mais cansaço e a mais dificuldade de concentração.",
+  "Mas a necessidade varia de pessoa para pessoa, e quem tem problema de sono deve procurar um médico.",
+  "Agora me diz: quantas horas você dormiu esta noite?"
+ ],
+ "scenes": [
+  {
+   "bg": "night",
+   "big1": "7 HORAS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "⏰"
+   },
+   "kicker": "MAIORIA DOS ADULTOS",
+   "big2": "OU MAIS",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "7 A 9",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📋"
+   },
+   "kicker": "A recomendação é de",
+   "big2": "HORAS POR NOITE"
+  },
+  {
+   "bg": "warm",
+   "big1": "DORMIR POUCO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "😵"
+   },
+   "kicker": "Todo dia dá mais",
+   "big2": "CANSAÇO"
+  },
+  {
+   "bg": "purple",
+   "big1": "VARIA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧍"
+   },
+   "kicker": "Cada pessoa é",
+   "big2": "DIFERENTE"
+  },
+  {
+   "bg": "night",
+   "big1": "E VOCÊ?",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🛌"
+   },
+   "kicker": "Quantas horas dormiu",
+   "big2": "ONTEM?",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

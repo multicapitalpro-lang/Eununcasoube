@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "A luz acesa à noite engana o relógio do seu corpo.",
+  "O corpo usa a luz para saber se é dia ou noite, e a escuridão ajuda a liberar a melatonina, o hormônio ligado ao sono.",
+  "Estudos mostram que luz forte à noite, inclusive a de telas, pode atrasar essa liberação.",
+  "Por isso, quanto mais escuro o quarto, mais fácil costuma ser para o corpo entender que é hora de dormir.",
+  "Agora me diz: você dorme com alguma luz acesa?"
+ ],
+ "scenes": [
+  {
+   "bg": "night",
+   "big1": "LUZ À NOITE",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌙"
+   },
+   "kicker": "ENGANA O",
+   "big2": "SEU RELÓGIO",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "MELATONINA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧬"
+   },
+   "kicker": "O hormônio do",
+   "big2": "SONO"
+  },
+  {
+   "bg": "purple",
+   "big1": "LUZ FORTE",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📱"
+   },
+   "kicker": "Pode atrasar a",
+   "big2": "LIBERAÇÃO"
+  },
+  {
+   "bg": "night",
+   "big1": "QUARTO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🛏️"
+   },
+   "kicker": "Mais escuro =",
+   "big2": "MAIS FÁCIL"
+  },
+  {
+   "bg": "night",
+   "big1": "LUZ ACESA?",
+   "viz": {
+    "type": "emoji",
+    "emoji": "💡"
+   },
+   "kicker": "Você dorme com",
+   "big2": "ALGUMA?",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

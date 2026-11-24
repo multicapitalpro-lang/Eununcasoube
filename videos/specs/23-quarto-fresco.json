@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "Dormir em um quarto um pouco mais fresco costuma ajudar o sono.",
+  "Quando você vai dormir, a temperatura do seu corpo cai um pouco.",
+  "Um ambiente muito quente pode atrapalhar esse processo, e muita gente acorda no meio da noite por causa do calor.",
+  "Cada pessoa tem um conforto diferente, mas ventilação e roupa de cama leve fazem diferença.",
+  "Agora me diz: você dorme melhor no frio ou no calor?"
+ ],
+ "scenes": [
+  {
+   "bg": "teal",
+   "big1": "QUARTO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "❄️"
+   },
+   "kicker": "DORMIR NUM",
+   "big2": "MAIS FRESCO",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "night",
+   "big1": "O CORPO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌡️"
+   },
+   "kicker": "A temperatura do corpo",
+   "big2": "CAI UM POUCO"
+  },
+  {
+   "bg": "warm",
+   "big1": "CALOR",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔥"
+   },
+   "kicker": "Quarto muito quente",
+   "big2": "ATRAPALHA"
+  },
+  {
+   "bg": "purple",
+   "big1": "VENTILAÇÃO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "💨"
+   },
+   "kicker": "Roupa de cama",
+   "big2": "LEVE AJUDA"
+  },
+  {
+   "bg": "night",
+   "big1": "FRIO OU CALOR?",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🤔"
+   },
+   "kicker": "Você dorme melhor no",
+   "big2": "QUAL?",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

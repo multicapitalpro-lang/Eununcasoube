@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "Você sonha todas as noites, mesmo quando acorda sem lembrar de nada.",
+  "Os sonhos mais intensos costumam acontecer na fase do sono chamada REM.",
+  "O corpo fica quase parado nessa fase, e o cérebro fica bem ativo.",
+  "Quem acorda no meio de um sonho tem mais chance de lembrar dele.",
+  "Agora me diz: qual foi o último sonho que você lembrou?"
+ ],
+ "scenes": [
+  {
+   "bg": "purple",
+   "big1": "VOCÊ SONHA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "💭"
+   },
+   "kicker": "TODA NOITE",
+   "big2": "MESMO SEM LEMBRAR",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "FASE REM",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧠"
+   },
+   "kicker": "Os sonhos mais",
+   "big2": "INTENSOS"
+  },
+  {
+   "bg": "night",
+   "big1": "O CORPO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧍"
+   },
+   "kicker": "Fica quase parado",
+   "big2": "O CÉREBRO NÃO"
+  },
+  {
+   "bg": "warm",
+   "big1": "ACORDAR",
+   "viz": {
+    "type": "emoji",
+    "emoji": "⏰"
+   },
+   "kicker": "No meio do sonho",
+   "big2": "AJUDA A LEMBRAR"
+  },
+  {
+   "bg": "night",
+   "big1": "SEU ÚLTIMO SONHO?",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌙"
+   },
+   "kicker": "Qual foi o",
+   "big2": "ÚLTIMO?",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

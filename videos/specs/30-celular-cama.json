@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "Mexer no celular na cama pode atrapalhar o seu sono.",
+  "Estudos observam que quem usa telas antes de dormir tende a dormir mais tarde e a ter um sono pior.",
+  "Uma parte do motivo é a luz, e outra parte é que o conteúdo mantém o cérebro ativo.",
+  "Uma ideia simples é deixar o celular carregando longe da cama.",
+  "Agora me diz: você dorme com o celular na mão?"
+ ],
+ "scenes": [
+  {
+   "bg": "purple",
+   "big1": "CELULAR",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📱"
+   },
+   "kicker": "NA CAMA PODE",
+   "big2": "ATRAPALHAR",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "ESTUDOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📊"
+   },
+   "kicker": "Quem usa tela antes de dormir",
+   "big2": "DORME MAIS TARDE"
+  },
+  {
+   "bg": "warm",
+   "big1": "LUZ + CONTEÚDO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧠"
+   },
+   "kicker": "Mantêm o cérebro",
+   "big2": "ATIVO"
+  },
+  {
+   "bg": "night",
+   "big1": "DICA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🔌"
+   },
+   "kicker": "Deixe o celular",
+   "big2": "LONGE DA CAMA"
+  },
+  {
+   "bg": "night",
+   "big1": "NA MÃO?",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🛌"
+   },
+   "kicker": "Você dorme com ele",
+   "big2": "NA MÃO?",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

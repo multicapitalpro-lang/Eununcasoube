@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "O café da tarde ainda pode estar no seu corpo na hora de dormir.",
+  "A cafeína tem uma meia-vida de cerca de cinco horas em média, ou seja, depois desse tempo ainda resta metade dela.",
+  "Esse tempo varia bastante de pessoa para pessoa.",
+  "Por isso, quem tem dificuldade para dormir costuma ser aconselhado a evitar cafeína no fim do dia.",
+  "Agora me diz: qual é o seu último café do dia?"
+ ],
+ "scenes": [
+  {
+   "bg": "warm",
+   "big1": "O CAFÉ",
+   "viz": {
+    "type": "emoji",
+    "emoji": "☕"
+   },
+   "kicker": "DA TARDE AINDA ESTÁ",
+   "big2": "NO CORPO",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "MEIA-VIDA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "⏳"
+   },
+   "kicker": "A cafeína leva cerca de",
+   "big2": "5 HORAS"
+  },
+  {
+   "bg": "purple",
+   "big1": "VARIA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧍"
+   },
+   "kicker": "Cada pessoa",
+   "big2": "É DIFERENTE"
+  },
+  {
+   "bg": "night",
+   "big1": "FIM DO DIA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌙"
+   },
+   "kicker": "Evite cafeína",
+   "big2": "MAIS TARDE"
+  },
+  {
+   "bg": "night",
+   "big1": "ÚLTIMO CAFÉ?",
+   "viz": {
+    "type": "emoji",
+    "emoji": "☕"
+   },
+   "kicker": "A que horas é o seu",
+   "big2": "ÚLTIMO?",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "Dormir bastante no fim de semana compensa o sono que faltou na semana? Só em parte.",
+  "Estudos indicam que dormir mais no sábado e no domingo pode aliviar parte da dívida de sono.",
+  "Mas os pesquisadores também veem que horários muito diferentes bagunçam o relógio do corpo.",
+  "O ideal para a maioria das pessoas é manter horários regulares, inclusive nos dias de folga.",
+  "Agora me diz: a que horas você acorda no domingo?"
+ ],
+ "scenes": [
+  {
+   "bg": "warm",
+   "big1": "FIM DE SEMANA",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🛌"
+   },
+   "kicker": "DORMIR MAIS COMPENSA?",
+   "big2": "SÓ EM PARTE",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "teal",
+   "big1": "ESTUDOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📊"
+   },
+   "kicker": "Aliviam parte da",
+   "big2": "DÍVIDA DE SONO"
+  },
+  {
+   "bg": "purple",
+   "big1": "HORÁRIOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "⏰"
+   },
+   "kicker": "Muito diferentes",
+   "big2": "BAGUNÇAM O RELÓGIO"
+  },
+  {
+   "bg": "night",
+   "big1": "REGULARIDADE",
+   "viz": {
+    "type": "emoji",
+    "emoji": "📅"
+   },
+   "kicker": "O ideal é manter",
+   "big2": "HORÁRIOS FIXOS"
+  },
+  {
+   "bg": "night",
+   "big1": "DOMINGO?",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌅"
+   },
+   "kicker": "A que horas você",
+   "big2": "ACORDA?",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}

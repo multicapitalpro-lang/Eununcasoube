@@ -1,0 +1,63 @@
+{
+ "lines": [
+  "Um barulho constante pode ajudar algumas pessoas a dormir.",
+  "É o chamado ruído branco, como o som de ventilador ou de chuva.",
+  "A ideia é que um som contínuo cobre barulhos repentinos, como buzina e porta batendo, que acordam a gente.",
+  "Os estudos sobre isso ainda são variados, e ele funciona para alguns e não para outros.",
+  "Agora me diz: você dorme melhor no silêncio ou com som?"
+ ],
+ "scenes": [
+  {
+   "bg": "teal",
+   "big1": "RUÍDO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🌧️"
+   },
+   "kicker": "UM BARULHO CONSTANTE",
+   "big2": "AJUDA?",
+   "clip": "assets/clip-s0.mp4"
+  },
+  {
+   "bg": "purple",
+   "big1": "RUÍDO BRANCO",
+   "viz": {
+    "type": "emoji",
+    "emoji": "💨"
+   },
+   "kicker": "Som de ventilador",
+   "big2": "OU CHUVA"
+  },
+  {
+   "bg": "night",
+   "big1": "SONS REPENTINOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🚪"
+   },
+   "kicker": "Ficam menos",
+   "big2": "NOTADOS"
+  },
+  {
+   "bg": "warm",
+   "big1": "ESTUDOS",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🧪"
+   },
+   "kicker": "Resultados",
+   "big2": "VARIADOS"
+  },
+  {
+   "bg": "night",
+   "big1": "SILÊNCIO OU SOM?",
+   "viz": {
+    "type": "emoji",
+    "emoji": "🎧"
+   },
+   "kicker": "Você dorme melhor no",
+   "big2": "QUAL?",
+   "clip": "assets/clip-s4.mp4"
+  }
+ ]
+}
